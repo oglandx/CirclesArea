@@ -9,9 +9,11 @@
 #define	SOLVER_H
 
 #include "types.h"
+#include <functional>
+#include <vector>
 
 template<typename T>
-T solve(const Circle<T> circles[]);
+T solve(const std::vector< Circle<T> > circles, int density, std::function<T ()> randomizer);
 
 #endif	/* SOLVER_H */
 

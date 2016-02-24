@@ -24,5 +24,11 @@ typedef Circle<float> Circlef;
 typedef Circle<int> Circlei;
 
 
+template <typename T>
+struct Rect {
+    Coords2<T> lt;
+    Coords2<T> br;
+};
+
 #endif	/* TYPES_H */
 
