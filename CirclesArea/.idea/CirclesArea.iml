@@ -5,9 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/types.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/except.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/parser.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/except.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/solver.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/solver.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/parser.h" isTestSource="false" />

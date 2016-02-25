@@ -9,6 +9,6 @@ set(SOURCE_FILES
     main.cpp
     solver.cpp
     solver.h
-    types.h except.cpp except.h except.h)
+    types.h)
 
 add_executable(CirclesArea ${SOURCE_FILES})
