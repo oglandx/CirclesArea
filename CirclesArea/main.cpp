@@ -39,6 +39,9 @@ int main(int argc, char** argv) {
     std::function<T(void)> *randomizer = new std::function<T()>(&std::rand);
     T result = solve<T>(circles, def::DENSITY, randomizer);
 
+    delete randomizer;
+    delete circles;
+
     std::cout << "Result = " << result << std::endl;
 
     return 0;

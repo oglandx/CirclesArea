@@ -30,7 +30,10 @@ T solve(const std::vector< Circle<T> > *circles, int density, std::function<T(vo
     Rect<T> rect = getFigureRect(circles);
     std::vector< Coords2<T> > *points = generatePoints(rect, density, randomizer);
     unsigned long intersects = getCountInsideCircles(circles, points);
-    return static_cast<T>(intersects/points->size());
+
+    unsigned long points_count = points->size();
+    delete points;
+    return static_cast<T>(intersects/points_count);
 }
 
 template <typename T>
