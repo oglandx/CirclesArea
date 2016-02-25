@@ -5,8 +5,8 @@
  * Created on February 17, 2016, 1:54 AM
  */
 
-#ifndef CMDLINE_H
-#define	CMDLINE_H
+#ifndef PARSER_H
+#define	PARSER_H
 
 #include <string>
 #include <vector>
@@ -29,11 +29,6 @@ public:
         strcpy(this->reason, what);
     }
 
-    ~FileException()
-    {
-        delete reason;
-    }
-
     const char* what() throw()
     {
         return this->reason;
@@ -41,7 +36,7 @@ public:
 };
 
 template<typename T>
-std::vector< Circle<T> > *parseCirclesFromFile(const std::string &filename, int max_circles)
+std::vector< Circle<T> > *parseCirclesFromFile(const std::string &filename, int max_circles) throw(FileException)
 {
     std::vector< Circle<T> > *circles = new std::vector< Circle<T> >();
 
@@ -87,5 +82,5 @@ std::vector< Circle<T> > *parseCirclesFromFile(const std::string &filename, int 
     return circles;
 }
 
-#endif	/* CMDLINE_H */
+#endif	/* PARSER_H */
 

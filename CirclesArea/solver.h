@@ -14,43 +14,40 @@
 
 
 
-template<typename T> T solve(const std::vector< Circle<T> > *circles, int density, std::function<T(void)> *randomizer);
-template <typename T> std::vector< Coords2<T> > *generatePoints(const Rect<T> &rect, int density, std::function<T ()> *randomizer);
+template<typename T> T solve(const std::vector< Circle<T> > *circles, int density, std::function<Coords2<T>(const Rect<T>&,int)> *randomizer);
+template <typename T> std::vector< Coords2<T> > *generatePoints(const Rect<T> &rect, int density, std::function<Coords2<T>(const Rect<T&>,int)> *randomizer);
 template<typename T> Rect<T> getFigureRect(const std::vector< Circle<T> > *circles);
 template <typename T> unsigned long getCountInsideCircles(const std::vector< Circle<T> > *circles, const std::vector< Coords2<T> > *points);
 template <typename T> bool isPointInsideCircles(const std::vector< Circle<T> > *circles, const Coords2<T> &point);
 template<typename T> inline bool isPointInsideCircle(const Circle<T> &circle, const Coords2<T> &point);
 template<typename T> inline T sqr(T value);
+template <typename T> inline T sqrRect(Rect<T> rect);
 
 
 
 template<typename T>
-T solve(const std::vector< Circle<T> > *circles, int density, std::function<T(void)> *randomizer)
+T solve(const std::vector< Circle<T> > *circles, int density, std::function<Coords2<T>(const Rect<T>&,int)> *randomizer)
 {
     Rect<T> rect = getFigureRect(circles);
     std::vector< Coords2<T> > *points = generatePoints(rect, density, randomizer);
     unsigned long intersects = getCountInsideCircles(circles, points);
-
-    unsigned long points_count = points->size();
+    unsigned long points_count = points->size() > 0 ? points->size() : 1ul;
     delete points;
-    return static_cast<T>(intersects/points_count);
+    return static_cast<T>(intersects)/static_cast<T>(points_count)*sqrRect(rect);
 }
 
 template <typename T>
 std::vector< Coords2<T> >*
-generatePoints(const Rect<T> &rect, int density, std::function<T(void)> *randomizer)
+generatePoints(const Rect<T> &rect, int density, std::function<Coords2<T>(const Rect<T>&,int)> *randomizer)
 {
     std::vector< Coords2<T> > *result = new std::vector< Coords2<T> > ();
 
-    T square = (rect.br.x - rect.lt.x)*(rect.br.y - rect.lt.y);
+    T square = sqrRect(rect);
     int count = density*static_cast<int>(square);
 
     for(int i = 0; i < count; ++i)
     {
-        Coords2<T> value = {
-            .x = (*randomizer)(),
-            .y = (*randomizer)()
-        };
+        Coords2<T> value = (*randomizer)(rect, density);
         result->push_back(value);
     }
 
@@ -139,6 +136,13 @@ inline T
 sqr(T value)
 {
     return value*value;
+}
+
+template <typename T>
+inline T
+sqrRect(Rect<T> rect)
+{
+    return (rect.br.x - rect.lt.x)*(rect.br.y - rect.lt.y);
 }
 
 #endif	/* SOLVER_H */
