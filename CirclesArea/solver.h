@@ -14,40 +14,46 @@
 
 
 
-template<typename T> T solve(const std::vector< Circle<T> > *circles, int density, std::function<Coords2<T>(const Rect<T>&,int)> *randomizer);
-template <typename T> std::vector< Coords2<T> > *generatePoints(const Rect<T> &rect, int density, std::function<Coords2<T>(const Rect<T&>,int)> *randomizer);
-template<typename T> Rect<T> getFigureRect(const std::vector< Circle<T> > *circles);
-template <typename T> unsigned long getCountInsideCircles(const std::vector< Circle<T> > *circles, const std::vector< Coords2<T> > *points);
-template <typename T> bool isPointInsideCircles(const std::vector< Circle<T> > *circles, const Coords2<T> &point);
-template<typename T> inline bool isPointInsideCircle(const Circle<T> &circle, const Coords2<T> &point);
+template<typename T> T solve(const std::vector< Circle<T> > *circles, int density, RandomFunction *randomizer);
+template <typename T> std::vector< Coords2<T>* > *generatePoints(const Rect<T> &rect, int density, RandomFunction *randomizer);
+template<typename T> Rect<T> getFigureRect(const std::vector< Circle<T>* > *circles);
+template <typename T> unsigned long getCountInsideCircles(const std::vector< Circle<T>* > *circles, const std::vector< Coords2<T> > *points);
+template <typename T> bool isPointInsideCircles(const std::vector< Circle<T>* > *circles, const Coords2<T> *point);
+template<typename T> inline bool isPointInsideCircle(const Circle<T> *circle, const Coords2<T> *point);
 template<typename T> inline T sqr(T value);
 template <typename T> inline T sqrRect(Rect<T> rect);
 
 
 
 template<typename T>
-T solve(const std::vector< Circle<T> > *circles, int density, std::function<Coords2<T>(const Rect<T>&,int)> *randomizer)
+T solve(const std::vector< Circle<T>* > *circles, int density, RandomFunction *randomizer)
 {
     Rect<T> rect = getFigureRect(circles);
-    std::vector< Coords2<T> > *points = generatePoints(rect, density, randomizer);
+    std::vector< Coords2<T>* > *points = generatePoints(rect, density, randomizer);
     unsigned long intersects = getCountInsideCircles(circles, points);
     unsigned long points_count = points->size() > 0 ? points->size() : 1ul;
+
+    for(unsigned long i = 0; i < points->size(); ++i)
+    {
+        delete points->at(i);
+    }
     delete points;
+
     return static_cast<T>(intersects)/static_cast<T>(points_count)*sqrRect(rect);
 }
 
 template <typename T>
-std::vector< Coords2<T> >*
-generatePoints(const Rect<T> &rect, int density, std::function<Coords2<T>(const Rect<T>&,int)> *randomizer)
+std::vector< Coords2<T>* >*
+generatePoints(const Rect<T> &rect, int density, RandomFunction *randomizer)
 {
-    std::vector< Coords2<T> > *result = new std::vector< Coords2<T> > ();
+    std::vector< Coords2<T>* > *result = new std::vector< Coords2<T>* > ();
 
     T square = sqrRect(rect);
-    int count = density*static_cast<int>(square);
+    unsigned long count = density*static_cast<unsigned long>(square);
 
-    for(int i = 0; i < count; ++i)
+    for(unsigned long i = 0; i < count; ++i)
     {
-        Coords2<T> value = (*randomizer)(rect, density);
+        Coords2<T>* value = (*randomizer)(rect, density);
         result->push_back(value);
     }
 
@@ -56,38 +62,38 @@ generatePoints(const Rect<T> &rect, int density, std::function<Coords2<T>(const 
 
 template<typename T>
 Rect<T>
-getFigureRect(const std::vector< Circle<T> > *circles)
+getFigureRect(const std::vector< Circle<T>* > *circles)
 {
-    typename std::vector< Circle<T> >::const_iterator it = circles->cbegin();
+    typename std::vector< Circle<T>* >::const_iterator it = circles->cbegin();
 
     Coords2<T> min = {
-            .x = it->center.x - it->radius,
-            .y = it->center.y - it->radius
+            .x = (*it)->center.x - (*it)->radius,
+            .y = (*it)->center.y - (*it)->radius
     };
     Coords2<T> max = {
-            .x = it->center.x + it->radius,
-            .y = it->center.y + it->radius
+            .x = (*it)->center.x + (*it)->radius,
+            .y = (*it)->center.y + (*it)->radius
     };
 
     while(it != circles->cend())
     {
         it++;
-        if(it->center.x - it->radius < min.x)
+        if((*it)->center.x - (*it)->radius < min.x)
         {
-            min.x = it->center.x - it->radius;
+            min.x = (*it)->center.x - (*it)->radius;
         }
-        else if(it->center.x + it->radius > max.x)
+        else if((*it)->center.x + (*it)->radius > max.x)
         {
-            max.x = it->center.x + it->radius;
+            max.x = (*it)->center.x + (*it)->radius;
         }
 
-        if(it->center.y - it->radius < min.y)
+        if((*it)->center.y - (*it)->radius < min.y)
         {
-            min.y = it->center.y - it->radius;
+            min.y = (*it)->center.y - (*it)->radius;
         }
-        else if(it->center.y - it->radius > max.y)
+        else if((*it)->center.y - (*it)->radius > max.y)
         {
-            max.y = it->center.y + it->radius;
+            max.y = (*it)->center.y + (*it)->radius;
         }
     }
     return Rect<T>{
@@ -97,10 +103,10 @@ getFigureRect(const std::vector< Circle<T> > *circles)
 }
 
 template <typename T>
-unsigned long getCountInsideCircles(const std::vector< Circle<T> > *circles, const std::vector< Coords2<T> > *points)
+unsigned long getCountInsideCircles(const std::vector< Circle<T>* > *circles, const std::vector< Coords2<T>* > *points)
 {
     unsigned long result = 0ul;
-    for(typename std::vector< Coords2<T> >::const_iterator it = points->cbegin(); it != points->cend(); it++)
+    for(typename std::vector< Coords2<T>* >::const_iterator it = points->cbegin(); it != points->cend(); it++)
     {
         if(isPointInsideCircles(circles, *it))
         {
@@ -111,9 +117,9 @@ unsigned long getCountInsideCircles(const std::vector< Circle<T> > *circles, con
 }
 
 template <typename T>
-bool isPointInsideCircles(const std::vector< Circle<T> > *circles, const Coords2<T> &point)
+bool isPointInsideCircles(const std::vector< Circle<T>* > *circles, const Coords2<T> *point)
 {
-    for(typename std::vector< Circle<T> >::const_iterator it = circles->cbegin(); it != circles->cend(); it++)
+    for(typename std::vector< Circle<T>* >::const_iterator it = circles->cbegin(); it != circles->cend(); it++)
     {
         if(isPointInsideCircle(*it, point))
         {
@@ -125,10 +131,10 @@ bool isPointInsideCircles(const std::vector< Circle<T> > *circles, const Coords2
 
 template<typename T>
 inline bool
-isPointInsideCircle(const Circle<T> &circle, const Coords2<T> &point)
+isPointInsideCircle(const Circle<T> *circle, const Coords2<T> *point)
 {
-    return sqr(point.x - circle.center.x) +
-           sqr(point.y - circle.center.y) <= sqr(circle.radius);
+    return sqr(point->x - circle->center.x) +
+           sqr(point->y - circle->center.y) <= sqr(circle->radius);
 }
 
 template<typename T>
