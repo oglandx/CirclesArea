@@ -1,0 +1,61 @@
+/home/oglandx/.CLion2016.1/system/cmake/generated/CirclesFigureArea-8ecb604/8ecb604/Debug/CirclesFigureArea
+Loaded circles:
+Circle(0) :: r = 100, center = (0, 0)
+
+
+>>>Running statistics test. This test consists of 10 iterations
+$start_generation
+$end_generation 13
+$start_count_inside
+$end_count_inside 2
+Result[0] = 31418.92
+$start_generation
+$end_generation 13
+$start_count_inside
+$end_count_inside 2
+Result[1] = 31415.43
+$start_generation
+$end_generation 13
+$start_count_inside
+$end_count_inside 2
+Result[2] = 31409.378
+$start_generation
+$end_generation 13
+$start_count_inside
+$end_count_inside 2
+Result[3] = 31416.684
+$start_generation
+$end_generation 13
+$start_count_inside
+$end_count_inside 2
+Result[4] = 31415.424
+$start_generation
+$end_generation 13
+$start_count_inside
+$end_count_inside 2
+Result[5] = 31416.156
+$start_generation
+$end_generation 13
+$start_count_inside
+$end_count_inside 2
+Result[6] = 31416.108
+$start_generation
+$end_generation 14
+$start_count_inside
+$end_count_inside 1
+Result[7] = 31416.564
+$start_generation
+$end_generation 14
+$start_count_inside
+$end_count_inside 1
+Result[8] = 31418.026
+$start_generation
+$end_generation 14
+$start_count_inside
+$end_count_inside 2
+Result[9] = 31419.704
+
+Mean value = 31416.2394
+Dispersion = 7.904177996
+
+Process finished with exit code 0

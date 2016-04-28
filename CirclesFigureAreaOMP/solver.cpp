@@ -1,5 +1,14 @@
 #include <iostream>
+#include <chrono>
 #include "solver.h"
+
+void __diagnostic_show_points(std::vector< Point* > *points)
+{
+    for(std::vector< Point* >::const_iterator it = points->begin(); it != points->end(); it++)
+    {
+        std::cout << "Point (" << (*it)->x << ", " << (*it)->y << ")" << std::endl;
+    }
+}
 
 T solve(const std::vector< Circle* > *circles, int density, RandomFunction random)
 {
@@ -24,17 +33,21 @@ std::vector< Point* > *generatePoints(const Rect *rect, int density, RandomFunct
     T area = rect->area();
     unsigned long count = density*static_cast<unsigned long>(area);
 
-    time_t t = time(NULL);
-    std::cout << "$start_generation" << std::endl;
+    std::chrono::milliseconds start_time =
+            std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
+    std::cout << "$start_generation...." << std::endl;
 
-    #pragma omp parallel for num_threads(2) shared(result)
+    #pragma omp parallel for num_threads(3) shared(result, rect, density)
     for(unsigned long i = 0; i < count; ++i)
     {
         Point* value = random(rect, density);
         #pragma omp critical
         result->push_back(value);
     }
-    std::cout << "$end_generation " << time(NULL) - t << std::endl;
+
+    std::chrono::milliseconds end_time =
+            std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
+    std::cout << "end_generation (time = " << end_time.count() - start_time.count() << ")" << std::endl;
 
     return result;
 }
@@ -78,8 +91,9 @@ Rect *getFigureRect(const std::vector< Circle* > *circles)
 unsigned long getCountInsideCircles(const std::vector< Circle* > *circles, const std::vector< Point* > *points)
 {
     unsigned long result = 0ul;
-    time_t t = time(NULL);
-    std::cout << "$start_count_inside" << std::endl;
+    std::chrono::milliseconds start_time =
+            std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
+    std::cout << "$start_count_inside..... " << std::endl;
     for(typename std::vector< Point* >::const_iterator it = points->begin(); it != points->end(); it++)
     {
         if(isPointInsideCircles(circles, *it))
@@ -87,7 +101,9 @@ unsigned long getCountInsideCircles(const std::vector< Circle* > *circles, const
             result++;
         }
     }
-    std::cout << "$end_count_inside " << time(NULL) - t << std::endl;
+    std::chrono::milliseconds end_time =
+            std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
+    std::cout << "end_count_inside (time = " << end_time.count() - start_time.count() << ")" << std::endl;
     return result;
 }
 

@@ -95,21 +95,33 @@ struct PointGeneratorStruct{
     const Rect *rect;
     RandomFunction random;
     std::vector< Point* > *result;
-    pthread_mutex_t mutex;
 
     PointGeneratorStruct(unsigned long count,
                          int density,
                          const Rect *rect,
                          RandomFunction random,
-                         std::vector< Point* > *result,
-                        pthread_mutex_t mutex)
+                         std::vector< Point* > *result)
     {
         this->count = count;
         this->density = density;
         this->rect = rect;
         this->random = random;
         this->result = result;
-        this->mutex = mutex;
+    }
+};
+
+struct CheckCirclesStruct{
+    const std::vector< Point* > *points;
+    const std::vector< Circle* > *circles;
+    unsigned long *result;
+
+    CheckCirclesStruct(const std::vector< Point* > *points,
+                       const std::vector< Circle* > *circles,
+                       unsigned long *result)
+    {
+        this->points = points;
+        this->circles = circles;
+        this->result = result;
     }
 };
 
