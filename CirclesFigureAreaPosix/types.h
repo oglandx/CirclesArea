@@ -94,32 +94,20 @@ struct PointGeneratorStruct{
     int density;
     const Rect *rect;
     RandomFunction random;
-    std::vector< Point* > *result;
+    const std::vector< Circle* > *circles;
+    unsigned long *result;
 
     PointGeneratorStruct(unsigned long count,
                          int density,
                          const Rect *rect,
                          RandomFunction random,
-                         std::vector< Point* > *result)
+                         const std::vector< Circle* > *circles,
+                         unsigned long *result)
     {
         this->count = count;
         this->density = density;
         this->rect = rect;
         this->random = random;
-        this->result = result;
-    }
-};
-
-struct CheckCirclesStruct{
-    const std::vector< Point* > *points;
-    const std::vector< Circle* > *circles;
-    unsigned long *result;
-
-    CheckCirclesStruct(const std::vector< Point* > *points,
-                       const std::vector< Circle* > *circles,
-                       unsigned long *result)
-    {
-        this->points = points;
         this->circles = circles;
         this->result = result;
     }

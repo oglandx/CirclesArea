@@ -33,7 +33,8 @@ void test_statistics(std::vector< Circle* >  *circles)
     show_circles(circles);
     std::cout << ">>>Running statistics test. This test consists of " << tests_count << " iterations" << std::endl;
     T results[tests_count];
-    for(int i = 0; i < tests_count; ++i){
+    for(int i = 0; i < tests_count; ++i)
+    {
         results[i] = solve(circles, def::DENSITY, random_uniform_real_distribution, def::MAX_CORES);
         std::cout << "Result[" << i << "] = " << results[i] << std::endl << std::endl;
     }
