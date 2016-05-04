@@ -29,11 +29,12 @@ std::vector< Circle* > *parseCirclesFromFile(const std::string &filename, int ma
         std::string line;
         std::getline(file, line);
 
-        if(!file.bad())
+        std::istringstream line_to_parse(line);
+        Circle* circle = new Circle(new Point(0, 0), 0);
+        line_to_parse >> circle->center->x >> circle->center->y >> circle->radius;
+
+        if(!file.eof() && !file.bad())
         {
-            std::istringstream line_to_parse(line);
-            Circle* circle = new Circle(new Point(0, 0), 0);
-            line_to_parse >> circle->center->x >> circle->center->y >> circle->radius;
             if(!line_to_parse.bad())
             {
                 circles->push_back(circle);

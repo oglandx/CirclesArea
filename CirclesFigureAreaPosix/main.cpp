@@ -28,14 +28,14 @@ void show_circles(std::vector< Circle* >  *circles)
 
 void test_statistics(std::vector< Circle* >  *circles)
 {
-    int tests_count = 10;
+    int tests_count = def::MAX_CORES - 1;
 
     show_circles(circles);
     std::cout << ">>>Running statistics test. This test consists of " << tests_count << " iterations" << std::endl;
     T results[tests_count];
     for(int i = 0; i < tests_count; ++i)
     {
-        results[i] = solve(circles, def::DENSITY, random_uniform_real_distribution, def::MAX_CORES);
+        results[i] = solve(circles, def::DENSITY, random_uniform_real_distribution, i + 1);
         std::cout << "Result[" << i << "] = " << results[i] << std::endl << std::endl;
     }
     std::cout << std::endl;

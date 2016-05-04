@@ -3,33 +3,42 @@
 T solve(const std::vector< Circle* > *circles, int density, RandomFunction random)
 {
     Rect *rect = getFigureRect(circles);
-    std::vector< Point* > *points = generatePoints(rect, density, random);
-    unsigned long intersects = getCountInsideCircles(circles, points);
-    unsigned long points_count = points->size() > 0 ? points->size() : 1ul;
-
-    for(unsigned long i = 0; i < points->size(); ++i)
+    std::pair<unsigned long, unsigned long> *result = generateAndCheckPoints(circles, rect, density, random);
+    if(NULL == result)
     {
-        delete points->at(i);
+        return (T)(-1);
     }
-    delete points;
 
-    return static_cast<T>(intersects)/static_cast<T>(points_count)* rect->area();
+    unsigned long count = result->first;
+    unsigned long intersects = result->second;
+
+    return static_cast<T>(intersects)/static_cast<T>(count)* rect->area();
 }
 
-std::vector< Point* > *generatePoints(const Rect *rect, int density, RandomFunction random)
+std::pair<unsigned long, unsigned long> *generateAndCheckPoints(
+        const std::vector< Circle* > *circles, const Rect *rect, int density, RandomFunction random)
 {
-    std::vector< Point* > *result = new std::vector< Point* > ();
-
     T area = rect->area();
     unsigned long count = density*static_cast<unsigned long>(area);
+    unsigned long result = 0;
+
+    std::chrono::milliseconds start_time =
+            std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
+    std::cout << "$start_generation...." << std::endl;
 
     for(unsigned long i = 0; i < count; ++i)
     {
-        Point* value = random(rect, density);
-        result->push_back(value);
+        Point *point = random(rect, density);
+        if (isPointInsideCircles(circles, point)) {
+            ++result;
+        }
     }
 
-    return result;
+    std::chrono::milliseconds end_time =
+            std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
+    std::cout << "end_generation (time = " << end_time.count() - start_time.count() << ")" << std::endl;
+
+    return new std::pair<unsigned long, unsigned long>(count, result);
 }
 
 Rect *getFigureRect(const std::vector< Circle* > *circles)
@@ -68,18 +77,6 @@ Rect *getFigureRect(const std::vector< Circle* > *circles)
     return new Rect(min, max);
 }
 
-unsigned long getCountInsideCircles(const std::vector< Circle* > *circles, const std::vector< Point* > *points)
-{
-    unsigned long result = 0ul;
-    for(typename std::vector< Point* >::const_iterator it = points->begin(); it != points->end(); it++)
-    {
-        if(isPointInsideCircles(circles, *it))
-        {
-            result++;
-        }
-    }
-    return result;
-}
 
 bool isPointInsideCircles(const std::vector< Circle* > *circles, const Point *point)
 {

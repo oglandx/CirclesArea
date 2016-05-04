@@ -11,14 +11,13 @@
 #include "types.h"
 #include <vector>
 #include <stdlib.h>
-#include <pthread.h>
 #include <iostream>
 #include <chrono>
 
 
-T solve(const std::vector< Circle* > *circles, int density, RandomFunction random);
+T solve(const std::vector< Circle* > *circles, int density, RandomFunction random, int max_cores);
 std::pair<unsigned long, unsigned long> *generateAndCheckPoints(
-        const std::vector< Circle* > *circles, const Rect *rect, int density, RandomFunction random);
+        const std::vector< Circle* > *circles, const Rect *rect, int density, RandomFunction random, int max_cores);
 Rect *getFigureRect(const std::vector< Circle* > *circles);
 bool isPointInsideCircles(const std::vector< Circle* > *circles,
                           const Point *point);
