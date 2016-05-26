@@ -1,0 +1,1755 @@
+>>> Running tests
+[Loaded circles]
+Circle(0) :: r = 100, center = (0, 0)
+
+
+[Running statistics test] This test consists of 50 iterations for 1 cores
+
+end_generation (process = 0, time = 14.337s)
+Result[0] = 31414.546
+
+end_generation (process = 0, time = 14.3s)
+Result[1] = 31418.808
+
+end_generation (process = 0, time = 14.287s)
+Result[2] = 31414.654
+
+end_generation (process = 0, time = 14.458s)
+Result[3] = 31414.534
+
+end_generation (process = 0, time = 14.359s)
+Result[4] = 31414.258
+
+end_generation (process = 0, time = 14.85s)
+Result[5] = 31412.436
+
+end_generation (process = 0, time = 15.42s)
+Result[6] = 31415.336
+
+end_generation (process = 0, time = 14.76s)
+Result[7] = 31408.44
+
+end_generation (process = 0, time = 14.625s)
+Result[8] = 31412.714
+
+end_generation (process = 0, time = 14.371s)
+Result[9] = 31414.402
+
+end_generation (process = 0, time = 14.386s)
+Result[10] = 31415.026
+
+end_generation (process = 0, time = 14.967s)
+Result[11] = 31416.704
+
+end_generation (process = 0, time = 14.586s)
+Result[12] = 31415.038
+
+end_generation (process = 0, time = 14.723s)
+Result[13] = 31416.946
+
+end_generation (process = 0, time = 15.713s)
+Result[14] = 31414.594
+
+end_generation (process = 0, time = 14.813s)
+Result[15] = 31415.134
+
+end_generation (process = 0, time = 14.646s)
+Result[16] = 31415.016
+
+end_generation (process = 0, time = 14.447s)
+Result[17] = 31415.992
+
+end_generation (process = 0, time = 14.431s)
+Result[18] = 31411.87
+
+end_generation (process = 0, time = 14.568s)
+Result[19] = 31414.574
+
+end_generation (process = 0, time = 14.273s)
+Result[20] = 31410.18
+
+end_generation (process = 0, time = 14.292s)
+Result[21] = 31413.928
+
+end_generation (process = 0, time = 14.393s)
+Result[22] = 31420.948
+
+end_generation (process = 0, time = 14.626s)
+Result[23] = 31416.068
+
+end_generation (process = 0, time = 14.346s)
+Result[24] = 31425.03
+
+end_generation (process = 0, time = 14.41s)
+Result[25] = 31411.5
+
+end_generation (process = 0, time = 14.449s)
+Result[26] = 31416.516
+
+end_generation (process = 0, time = 14.488s)
+Result[27] = 31418.232
+
+end_generation (process = 0, time = 14.669s)
+Result[28] = 31417.28
+
+end_generation (process = 0, time = 14.386s)
+Result[29] = 31414.518
+
+end_generation (process = 0, time = 14.46s)
+Result[30] = 31416.79
+
+end_generation (process = 0, time = 14.34s)
+Result[31] = 31417.214
+
+end_generation (process = 0, time = 14.323s)
+Result[32] = 31422.746
+
+end_generation (process = 0, time = 14.414s)
+Result[33] = 31419.032
+
+end_generation (process = 0, time = 14.385s)
+Result[34] = 31414.468
+
+end_generation (process = 0, time = 14.307s)
+Result[35] = 31416.73
+
+end_generation (process = 0, time = 14.344s)
+Result[36] = 31425.56
+
+end_generation (process = 0, time = 14.378s)
+Result[37] = 31411.584
+
+end_generation (process = 0, time = 14.312s)
+Result[38] = 31411.858
+
+end_generation (process = 0, time = 14.326s)
+Result[39] = 31412.174
+
+end_generation (process = 0, time = 14.322s)
+Result[40] = 31415.208
+
+end_generation (process = 0, time = 14.358s)
+Result[41] = 31420.854
+
+end_generation (process = 0, time = 14.325s)
+Result[42] = 31420.044
+
+end_generation (process = 0, time = 14.316s)
+Result[43] = 31419.39
+
+end_generation (process = 0, time = 14.345s)
+Result[44] = 31412.722
+
+end_generation (process = 0, time = 14.354s)
+Result[45] = 31421.574
+
+end_generation (process = 0, time = 14.326s)
+Result[46] = 31406.944
+
+end_generation (process = 0, time = 14.299s)
+Result[47] = 31419.914
+
+end_generation (process = 0, time = 14.308s)
+Result[48] = 31419.522
+
+end_generation (process = 0, time = 14.33s)
+Result[49] = 31413.308
+
+
+[Result]
+Mean value = 31416
+Dispersion = 14.248
+
+[Time]
+Mean value = 14.485
+Dispersion = 0.075995
+
+
+>>> Running tests
+[Loaded circles]
+Circle(0) :: r = 100, center = (0, 0)
+
+
+[Running statistics test] This test consists of 50 iterations for 2 cores
+
+end_generation (process = 1, time = 7.243s)
+end_generation (process = 0, time = 7.324s)
+Result[0] = 31413.586
+
+end_generation (process = 1, time = 7.255s)
+end_generation (process = 0, time = 7.352s)
+Result[1] = 31416.262
+
+end_generation (process = 1, time = 7.248s)
+end_generation (process = 0, time = 7.329s)
+Result[2] = 31409.82
+
+end_generation (process = 1, time = 7.197s)
+end_generation (process = 0, time = 7.308s)
+Result[3] = 31418.74
+
+end_generation (process = 1, time = 7.212s)
+end_generation (process = 0, time = 7.269s)
+Result[4] = 31416.704
+
+end_generation (process = 1, time = 7.208s)
+end_generation (process = 0, time = 7.261s)
+Result[5] = 31424.3
+
+end_generation (process = 1, time = 7.217s)
+end_generation (process = 0, time = 7.262s)
+Result[6] = 31413.72
+
+end_generation (process = 1, time = 7.175s)
+end_generation (process = 0, time = 7.273s)
+Result[7] = 31410.562
+
+end_generation (process = 1, time = 7.217s)
+end_generation (process = 0, time = 7.256s)
+Result[8] = 31416.522
+
+end_generation (process = 1, time = 7.211s)
+end_generation (process = 0, time = 7.273s)
+Result[9] = 31420.134
+
+end_generation (process = 1, time = 7.205s)
+end_generation (process = 0, time = 7.243s)
+Result[10] = 31418.374
+
+end_generation (process = 1, time = 7.175s)
+end_generation (process = 0, time = 7.261s)
+Result[11] = 31412.968
+
+end_generation (process = 1, time = 7.212s)
+end_generation (process = 0, time = 7.29s)
+Result[12] = 31417.198
+
+end_generation (process = 1, time = 7.212s)
+end_generation (process = 0, time = 7.256s)
+Result[13] = 31413.816
+
+end_generation (process = 1, time = 7.208s)
+end_generation (process = 0, time = 7.266s)
+Result[14] = 31419.386
+
+end_generation (process = 1, time = 7.18s)
+end_generation (process = 0, time = 7.295s)
+Result[15] = 31416.128
+
+end_generation (process = 1, time = 7.208s)
+end_generation (process = 0, time = 7.262s)
+Result[16] = 31417.372
+
+end_generation (process = 1, time = 7.213s)
+end_generation (process = 0, time = 7.286s)
+Result[17] = 31417.382
+
+end_generation (process = 1, time = 7.209s)
+end_generation (process = 0, time = 7.275s)
+Result[18] = 31418.598
+
+end_generation (process = 1, time = 7.173s)
+end_generation (process = 0, time = 7.253s)
+Result[19] = 31407.1
+
+end_generation (process = 1, time = 7.209s)
+end_generation (process = 0, time = 7.302s)
+Result[20] = 31421.76
+
+end_generation (process = 1, time = 7.216s)
+end_generation (process = 0, time = 7.258s)
+Result[21] = 31412.476
+
+end_generation (process = 1, time = 7.225s)
+end_generation (process = 0, time = 7.248s)
+Result[22] = 31417.06
+
+end_generation (process = 1, time = 7.212s)
+end_generation (process = 0, time = 7.261s)
+Result[23] = 31420.038
+
+end_generation (process = 1, time = 7.216s)
+end_generation (process = 0, time = 7.269s)
+Result[24] = 31416.99
+
+end_generation (process = 1, time = 7.212s)
+end_generation (process = 0, time = 7.249s)
+Result[25] = 31418.396
+
+end_generation (process = 1, time = 7.213s)
+end_generation (process = 0, time = 7.247s)
+Result[26] = 31414.936
+
+end_generation (process = 1, time = 7.177s)
+end_generation (process = 0, time = 7.265s)
+Result[27] = 31423.818
+
+end_generation (process = 1, time = 7.211s)
+end_generation (process = 0, time = 7.257s)
+Result[28] = 31416.818
+
+end_generation (process = 1, time = 7.215s)
+end_generation (process = 0, time = 7.275s)
+Result[29] = 31412.462
+
+end_generation (process = 1, time = 7.209s)
+end_generation (process = 0, time = 7.238s)
+Result[30] = 31410.874
+
+end_generation (process = 1, time = 7.176s)
+end_generation (process = 0, time = 7.322s)
+Result[31] = 31417.014
+
+end_generation (process = 1, time = 7.213s)
+end_generation (process = 0, time = 7.293s)
+Result[32] = 31416.834
+
+end_generation (process = 1, time = 7.211s)
+end_generation (process = 0, time = 7.246s)
+Result[33] = 31415.77
+
+end_generation (process = 1, time = 7.254s)
+end_generation (process = 0, time = 7.258s)
+Result[34] = 31418.836
+
+end_generation (process = 1, time = 7.22s)
+end_generation (process = 0, time = 7.244s)
+Result[35] = 31418.806
+
+end_generation (process = 1, time = 7.214s)
+end_generation (process = 0, time = 7.276s)
+Result[36] = 31422.248
+
+end_generation (process = 1, time = 7.216s)
+end_generation (process = 0, time = 7.248s)
+Result[37] = 31417.148
+
+end_generation (process = 1, time = 7.216s)
+end_generation (process = 0, time = 7.27s)
+Result[38] = 31417.018
+
+end_generation (process = 1, time = 7.182s)
+end_generation (process = 0, time = 7.255s)
+Result[39] = 31411.666
+
+end_generation (process = 1, time = 7.211s)
+end_generation (process = 0, time = 7.264s)
+Result[40] = 31414.678
+
+end_generation (process = 1, time = 7.212s)
+end_generation (process = 0, time = 7.248s)
+Result[41] = 31421.314
+
+end_generation (process = 1, time = 7.213s)
+end_generation (process = 0, time = 7.253s)
+Result[42] = 31415.22
+
+end_generation (process = 1, time = 7.179s)
+end_generation (process = 0, time = 7.243s)
+Result[43] = 31415.22
+
+end_generation (process = 1, time = 7.258s)
+end_generation (process = 0, time = 7.339s)
+Result[44] = 31416.496
+
+end_generation (process = 1, time = 7.257s)
+end_generation (process = 0, time = 7.35s)
+Result[45] = 31419.716
+
+end_generation (process = 1, time = 7.224s)
+end_generation (process = 0, time = 7.3s)
+Result[46] = 31417.01
+
+end_generation (process = 1, time = 7.175s)
+end_generation (process = 0, time = 7.305s)
+Result[47] = 31417.446
+
+end_generation (process = 1, time = 7.217s)
+end_generation (process = 0, time = 7.308s)
+Result[48] = 31415.064
+
+end_generation (process = 1, time = 7.221s)
+end_generation (process = 0, time = 7.307s)
+Result[49] = 31410.484
+
+
+[Result]
+Mean value = 31416
+Dispersion = 12.289
+
+[Time]
+Mean value = 7.2112
+Dispersion = 0.00044222
+
+
+
+>>> Running tests
+[Loaded circles]
+Circle(0) :: r = 100, center = (0, 0)
+
+
+[Running statistics test] This test consists of 50 iterations for 3 cores
+
+end_generation (process = 1, time = 4.878s)
+end_generation (process = 2, time = 4.887s)
+end_generation (process = 0, time = 4.921s)
+Result[0] = 31413.3
+
+end_generation (process = 1, time = 4.83s)
+end_generation (process = 2, time = 4.854s)
+end_generation (process = 0, time = 4.887s)
+Result[1] = 31410.028
+
+end_generation (process = 1, time = 4.957s)
+end_generation (process = 2, time = 4.985s)
+end_generation (process = 0, time = 5.005s)
+Result[2] = 31418.576
+
+end_generation (process = 2, time = 4.847s)
+end_generation (process = 1, time = 4.858s)
+end_generation (process = 0, time = 4.905s)
+Result[3] = 31407.004
+
+end_generation (process = 2, time = 4.86s)
+end_generation (process = 1, time = 4.881s)
+end_generation (process = 0, time = 4.964s)
+Result[4] = 31412.604
+
+end_generation (process = 2, time = 4.823s)
+end_generation (process = 1, time = 4.827s)
+end_generation (process = 0, time = 4.912s)
+Result[5] = 31412.574
+
+end_generation (process = 2, time = 4.838s)
+end_generation (process = 1, time = 4.856s)
+end_generation (process = 0, time = 4.909s)
+Result[6] = 31421.402
+
+end_generation (process = 2, time = 4.833s)
+end_generation (process = 1, time = 4.86s)
+end_generation (process = 0, time = 4.902s)
+Result[7] = 31413.702
+
+end_generation (process = 2, time = 4.828s)
+end_generation (process = 1, time = 4.829s)
+end_generation (process = 0, time = 4.887s)
+Result[8] = 31415.048
+
+end_generation (process = 2, time = 4.815s)
+end_generation (process = 1, time = 4.817s)
+end_generation (process = 0, time = 4.881s)
+Result[9] = 31416.106
+
+end_generation (process = 2, time = 4.84s)
+end_generation (process = 1, time = 4.868s)
+end_generation (process = 0, time = 4.918s)
+Result[10] = 31419.924
+
+end_generation (process = 2, time = 4.872s)
+end_generation (process = 1, time = 4.903s)
+end_generation (process = 0, time = 4.95s)
+Result[11] = 31415.464
+
+end_generation (process = 2, time = 4.829s)
+end_generation (process = 1, time = 4.852s)
+end_generation (process = 0, time = 4.893s)
+Result[12] = 31414.874
+
+end_generation (process = 2, time = 4.872s)
+end_generation (process = 1, time = 4.882s)
+end_generation (process = 0, time = 4.943s)
+Result[13] = 31416.738
+
+end_generation (process = 2, time = 4.853s)
+end_generation (process = 1, time = 4.865s)
+end_generation (process = 0, time = 4.906s)
+Result[14] = 31414.33
+
+end_generation (process = 1, time = 4.903s)
+end_generation (process = 2, time = 4.929s)
+end_generation (process = 0, time = 4.95s)
+Result[15] = 31416.462
+
+end_generation (process = 2, time = 4.897s)
+end_generation (process = 1, time = 4.912s)
+end_generation (process = 0, time = 4.975s)
+Result[16] = 31414.028
+
+end_generation (process = 2, time = 4.947s)
+end_generation (process = 1, time = 4.948s)
+end_generation (process = 0, time = 5.016s)
+Result[17] = 31412.33
+
+end_generation (process = 1, time = 5.109s)
+end_generation (process = 2, time = 5.11s)
+end_generation (process = 0, time = 5.147s)
+Result[18] = 31420.42
+
+end_generation (process = 2, time = 4.974s)
+end_generation (process = 0, time = 5.069s)
+end_generation (process = 1, time = 5.069s)
+Result[19] = 31415.586
+
+end_generation (process = 2, time = 4.954s)
+end_generation (process = 1, time = 5.063s)
+end_generation (process = 0, time = 5.063s)
+Result[20] = 31415.712
+
+end_generation (process = 2, time = 5.008s)
+end_generation (process = 1, time = 5.017s)
+end_generation (process = 0, time = 5.079s)
+Result[21] = 31409.052
+
+end_generation (process = 2, time = 4.91s)
+end_generation (process = 1, time = 4.924s)
+end_generation (process = 0, time = 4.98s)
+Result[22] = 31421.014
+
+end_generation (process = 2, time = 4.958s)
+end_generation (process = 1, time = 4.981s)
+end_generation (process = 0, time = 5.031s)
+Result[23] = 31417.634
+
+end_generation (process = 2, time = 4.82s)
+end_generation (process = 1, time = 4.84s)
+end_generation (process = 0, time = 4.893s)
+Result[24] = 31414.756
+
+end_generation (process = 1, time = 4.818s)
+end_generation (process = 2, time = 4.854s)
+end_generation (process = 0, time = 4.888s)
+Result[25] = 31413.926
+
+end_generation (process = 1, time = 4.847s)
+end_generation (process = 2, time = 4.855s)
+end_generation (process = 0, time = 4.903s)
+Result[26] = 31416.76
+
+end_generation (process = 2, time = 4.829s)
+end_generation (process = 1, time = 4.83s)
+end_generation (process = 0, time = 4.871s)
+Result[27] = 31415.87
+
+end_generation (process = 2, time = 4.806s)
+end_generation (process = 1, time = 4.829s)
+end_generation (process = 0, time = 4.878s)
+Result[28] = 31413.828
+
+end_generation (process = 2, time = 4.812s)
+end_generation (process = 1, time = 4.839s)
+end_generation (process = 0, time = 4.886s)
+Result[29] = 31412.988
+
+end_generation (process = 2, time = 4.983s)
+end_generation (process = 1, time = 5.024s)
+end_generation (process = 0, time = 5.066s)
+Result[30] = 31417.996
+
+end_generation (process = 2, time = 4.822s)
+end_generation (process = 1, time = 4.859s)
+end_generation (process = 0, time = 4.893s)
+Result[31] = 31415.488
+
+end_generation (process = 2, time = 4.807s)
+end_generation (process = 1, time = 4.832s)
+end_generation (process = 0, time = 4.897s)
+Result[32] = 31415.748
+
+end_generation (process = 2, time = 4.813s)
+end_generation (process = 1, time = 4.819s)
+end_generation (process = 0, time = 4.892s)
+Result[33] = 31416.812
+
+end_generation (process = 2, time = 4.836s)
+end_generation (process = 1, time = 4.857s)
+end_generation (process = 0, time = 4.908s)
+Result[34] = 31419.94
+
+end_generation (process = 2, time = 5.007s)
+end_generation (process = 1, time = 5.029s)
+end_generation (process = 0, time = 5.087s)
+Result[35] = 31415.366
+
+end_generation (process = 2, time = 4.927s)
+end_generation (process = 1, time = 4.939s)
+end_generation (process = 0, time = 4.996s)
+Result[36] = 31416.296
+
+end_generation (process = 2, time = 4.881s)
+end_generation (process = 1, time = 4.883s)
+end_generation (process = 0, time = 4.936s)
+Result[37] = 31418.754
+
+end_generation (process = 2, time = 4.937s)
+end_generation (process = 1, time = 4.952s)
+end_generation (process = 0, time = 4.983s)
+Result[38] = 31411.466
+
+end_generation (process = 2, time = 4.969s)
+end_generation (process = 1, time = 4.982s)
+end_generation (process = 0, time = 5.003s)
+Result[39] = 31416.206
+
+end_generation (process = 2, time = 4.831s)
+end_generation (process = 1, time = 4.844s)
+end_generation (process = 0, time = 4.882s)
+Result[40] = 31410.672
+
+end_generation (process = 2, time = 4.808s)
+end_generation (process = 1, time = 4.813s)
+end_generation (process = 0, time = 4.856s)
+Result[41] = 31415
+
+end_generation (process = 2, time = 4.803s)
+end_generation (process = 1, time = 4.826s)
+end_generation (process = 0, time = 4.852s)
+Result[42] = 31422.176
+
+end_generation (process = 2, time = 4.814s)
+end_generation (process = 1, time = 4.837s)
+end_generation (process = 0, time = 4.849s)
+Result[43] = 31413.38
+
+end_generation (process = 2, time = 4.812s)
+end_generation (process = 1, time = 4.825s)
+end_generation (process = 0, time = 4.866s)
+Result[44] = 31418.91
+
+end_generation (process = 2, time = 4.808s)
+end_generation (process = 1, time = 4.813s)
+end_generation (process = 0, time = 4.853s)
+Result[45] = 31413.848
+
+end_generation (process = 2, time = 4.809s)
+end_generation (process = 1, time = 4.831s)
+end_generation (process = 0, time = 4.86s)
+Result[46] = 31420.512
+
+end_generation (process = 2, time = 4.81s)
+end_generation (process = 1, time = 4.831s)
+end_generation (process = 0, time = 4.855s)
+Result[47] = 31415.392
+
+end_generation (process = 2, time = 4.836s)
+end_generation (process = 1, time = 4.854s)
+end_generation (process = 0, time = 4.879s)
+Result[48] = 31420.67
+
+end_generation (process = 1, time = 4.964s)
+end_generation (process = 2, time = 4.969s)
+end_generation (process = 0, time = 5.004s)
+Result[49] = 31418.882
+
+
+[Result]
+Mean value = 31416
+Dispersion = 10.529
+
+[Time]
+Mean value = 4.8756
+Dispersion = 0.0049912
+
+
+
+>>> Running tests
+[Loaded circles]
+Circle(0) :: r = 100, center = (0, 0)
+
+
+[Running statistics test] This test consists of 50 iterations for 4 cores
+
+end_generation (process = 2, time = 3.859s)
+end_generation (process = 1, time = 3.871s)
+end_generation (process = 3, time = 3.895s)
+end_generation (process = 0, time = 4.025s)
+Result[0] = 31417.896
+
+end_generation (process = 2, time = 3.774s)
+end_generation (process = 1, time = 3.843s)
+end_generation (process = 0, time = 3.944s)
+end_generation (process = 3, time = 3.944s)
+Result[1] = 31421.108
+
+end_generation (process = 2, time = 3.792s)
+end_generation (process = 3, time = 3.854s)
+end_generation (process = 1, time = 3.854s)
+end_generation (process = 0, time = 3.854s)
+Result[2] = 31421.904
+
+end_generation (process = 2, time = 3.714s)
+end_generation (process = 1, time = 3.779s)
+end_generation (process = 3, time = 3.808s)
+end_generation (process = 0, time = 3.808s)
+Result[3] = 31420.516
+
+end_generation (process = 2, time = 3.943s)
+end_generation (process = 1, time = 3.972s)
+end_generation (process = 0, time = 4.004s)
+end_generation (process = 3, time = 3.867s)
+Result[4] = 31416.308
+
+end_generation (process = 3, time = 4.004s)
+end_generation (process = 2, time = 3.674s)
+end_generation (process = 1, time = 3.732s)
+end_generation (process = 0, time = 3.754s)
+Result[5] = 31414.356
+
+end_generation (process = 3, time = 3.754s)
+end_generation (process = 2, time = 3.786s)
+end_generation (process = 1, time = 3.843s)
+end_generation (process = 0, time = 3.867s)
+Result[6] = 31420.582
+
+end_generation (process = 2, time = 3.727s)
+end_generation (process = 1, time = 3.776s)
+end_generation (process = 3, time = 3.807s)
+end_generation (process = 0, time = 3.807s)
+Result[7] = 31413.402
+
+end_generation (process = 2, time = 3.723s)
+end_generation (process = 1, time = 3.743s)
+end_generation (process = 0, time = 3.791s)
+end_generation (process = 3, time = 3.791s)
+Result[8] = 31416.414
+
+end_generation (process = 2, time = 3.734s)
+end_generation (process = 1, time = 3.787s)
+end_generation (process = 3, time = 3.806s)
+end_generation (process = 0, time = 3.807s)
+Result[9] = 31413.032
+
+end_generation (process = 2, time = 3.729s)
+end_generation (process = 3, time = 3.779s)
+end_generation (process = 1, time = 3.794s)
+end_generation (process = 0, time = 3.795s)
+Result[10] = 31415.504
+
+end_generation (process = 2, time = 3.636s)
+end_generation (process = 3, time = 3.691s)
+end_generation (process = 1, time = 3.715s)
+end_generation (process = 0, time = 3.745s)
+Result[11] = 31409.034
+
+end_generation (process = 2, time = 3.636s)
+end_generation (process = 1, time = 3.68s)
+end_generation (process = 3, time = 3.711s)
+end_generation (process = 0, time = 3.713s)
+Result[12] = 31415.726
+
+end_generation (process = 2, time = 3.645s)
+end_generation (process = 3, time = 3.695s)
+end_generation (process = 1, time = 3.713s)
+end_generation (process = 0, time = 3.713s)
+Result[13] = 31421.928
+
+end_generation (process = 2, time = 3.607s)
+end_generation (process = 3, time = 3.658s)
+end_generation (process = 1, time = 3.666s)
+end_generation (process = 0, time = 3.676s)
+Result[14] = 31412.688
+
+end_generation (process = 2, time = 3.738s)
+end_generation (process = 1, time = 3.778s)
+end_generation (process = 3, time = 3.783s)
+end_generation (process = 0, time = 3.793s)
+Result[15] = 31418.504
+
+end_generation (process = 2, time = 3.996s)
+end_generation (process = 3, time = 4.026s)
+end_generation (process = 1, time = 4.067s)
+end_generation (process = 0, time = 4.067s)
+Result[16] = 31417.308
+
+end_generation (process = 2, time = 3.752s)
+end_generation (process = 1, time = 3.806s)
+end_generation (process = 3, time = 3.842s)
+end_generation (process = 0, time = 3.842s)
+Result[17] = 31414.458
+
+end_generation (process = 2, time = 3.872s)
+end_generation (process = 3, time = 3.945s)
+end_generation (process = 0, time = 4.007s)
+end_generation (process = 1, time = 4.007s)
+Result[18] = 31421.174
+
+end_generation (process = 3, time = 3.87s)
+end_generation (process = 2, time = 3.877s)
+end_generation (process = 0, time = 3.929s)
+end_generation (process = 1, time = 3.929s)
+Result[19] = 31417.854
+
+end_generation (process = 2, time = 3.862s)
+end_generation (process = 3, time = 3.838s)
+end_generation (process = 1, time = 3.84s)
+end_generation (process = 0, time = 3.862s)
+Result[20] = 31421.9
+
+end_generation (process = 2, time = 3.696s)
+end_generation (process = 1, time = 3.734s)
+end_generation (process = 3, time = 3.739s)
+end_generation (process = 0, time = 3.79s)
+Result[21] = 31414.748
+
+end_generation (process = 2, time = 3.683s)
+end_generation (process = 1, time = 3.722s)
+end_generation (process = 0, time = 3.731s)
+end_generation (process = 3, time = 3.731s)
+Result[22] = 31416.294
+
+end_generation (process = 2, time = 3.79s)
+end_generation (process = 1, time = 3.793s)
+end_generation (process = 3, time = 3.822s)
+end_generation (process = 0, time = 3.822s)
+Result[23] = 31415.994
+
+end_generation (process = 2, time = 3.784s)
+end_generation (process = 1, time = 3.852s)
+end_generation (process = 0, time = 3.855s)
+end_generation (process = 3, time = 3.855s)
+Result[24] = 31407.938
+
+end_generation (process = 2, time = 3.761s)
+end_generation (process = 3, time = 3.792s)
+end_generation (process = 1, time = 3.803s)
+end_generation (process = 0, time = 3.803s)
+Result[25] = 31417.048
+
+end_generation (process = 2, time = 3.669s)
+end_generation (process = 1, time = 3.727s)
+end_generation (process = 0, time = 3.771s)
+end_generation (process = 3, time = 3.914s)
+Result[26] = 31419.682
+
+end_generation (process = 3, time = 3.771s)
+end_generation (process = 2, time = 3.662s)
+end_generation (process = 1, time = 3.737s)
+end_generation (process = 0, time = 3.751s)
+Result[27] = 31421.114
+
+end_generation (process = 3, time = 3.751s)
+end_generation (process = 2, time = 3.854s)
+end_generation (process = 1, time = 3.904s)
+end_generation (process = 0, time = 3.914s)
+Result[28] = 31413.038
+
+end_generation (process = 2, time = 3.693s)
+end_generation (process = 1, time = 3.728s)
+end_generation (process = 3, time = 3.735s)
+end_generation (process = 0, time = 3.751s)
+Result[29] = 31415.166
+
+end_generation (process = 2, time = 3.726s)
+end_generation (process = 1, time = 3.754s)
+end_generation (process = 3, time = 3.772s)
+end_generation (process = 0, time = 3.772s)
+Result[30] = 31422.552
+
+end_generation (process = 2, time = 3.679s)
+end_generation (process = 1, time = 3.716s)
+end_generation (process = 0, time = 3.743s)
+end_generation (process = 3, time = 3.743s)
+Result[31] = 31416.598
+
+end_generation (process = 2, time = 3.656s)
+end_generation (process = 1, time = 3.712s)
+end_generation (process = 3, time = 3.74s)
+end_generation (process = 0, time = 3.74s)
+Result[32] = 31417.354
+
+end_generation (process = 2, time = 3.656s)
+end_generation (process = 1, time = 3.717s)
+end_generation (process = 0, time = 3.728s)
+end_generation (process = 3, time = 3.728s)
+Result[33] = 31411.7
+
+end_generation (process = 2, time = 3.73s)
+end_generation (process = 1, time = 3.766s)
+end_generation (process = 3, time = 3.799s)
+end_generation (process = 0, time = 3.799s)
+Result[34] = 31426.362
+
+end_generation (process = 2, time = 3.649s)
+end_generation (process = 1, time = 3.712s)
+end_generation (process = 0, time = 3.733s)
+end_generation (process = 3, time = 3.733s)
+Result[35] = 31413.646
+
+end_generation (process = 2, time = 3.716s)
+end_generation (process = 1, time = 3.746s)
+end_generation (process = 3, time = 3.781s)
+end_generation (process = 0, time = 3.781s)
+Result[36] = 31413.398
+
+end_generation (process = 2, time = 3.67s)
+end_generation (process = 1, time = 3.71s)
+end_generation (process = 3, time = 3.721s)
+end_generation (process = 0, time = 3.725s)
+Result[37] = 31412.388
+
+end_generation (process = 2, time = 3.648s)
+end_generation (process = 1, time = 3.713s)
+end_generation (process = 3, time = 3.734s)
+end_generation (process = 0, time = 3.734s)
+Result[38] = 31411.214
+
+end_generation (process = 2, time = 3.64s)
+end_generation (process = 1, time = 3.718s)
+end_generation (process = 0, time = 3.736s)
+end_generation (process = 3, time = 3.831s)
+Result[39] = 31418.892
+
+end_generation (process = 3, time = 3.736s)
+end_generation (process = 2, time = 3.765s)
+end_generation (process = 1, time = 3.805s)
+end_generation (process = 0, time = 3.831s)
+Result[40] = 31410.518
+
+end_generation (process = 2, time = 3.73s)
+end_generation (process = 1, time = 3.758s)
+end_generation (process = 3, time = 3.769s)
+end_generation (process = 0, time = 3.772s)
+Result[41] = 31414.026
+
+end_generation (process = 2, time = 3.772s)
+end_generation (process = 1, time = 3.814s)
+end_generation (process = 3, time = 3.828s)
+end_generation (process = 0, time = 3.828s)
+Result[42] = 31415.042
+
+end_generation (process = 2, time = 3.859s)
+end_generation (process = 1, time = 3.894s)
+end_generation (process = 3, time = 3.919s)
+end_generation (process = 0, time = 3.919s)
+Result[43] = 31421.308
+
+end_generation (process = 2, time = 3.689s)
+end_generation (process = 1, time = 3.741s)
+end_generation (process = 3, time = 3.783s)
+end_generation (process = 0, time = 3.783s)
+Result[44] = 31410.496
+
+end_generation (process = 2, time = 3.707s)
+end_generation (process = 1, time = 3.758s)
+end_generation (process = 3, time = 3.763s)
+end_generation (process = 0, time = 3.764s)
+Result[45] = 31421.206
+
+end_generation (process = 2, time = 3.68s)
+end_generation (process = 1, time = 3.726s)
+end_generation (process = 3, time = 3.749s)
+end_generation (process = 0, time = 3.749s)
+Result[46] = 31411.824
+
+end_generation (process = 2, time = 3.782s)
+end_generation (process = 1, time = 3.845s)
+end_generation (process = 0, time = 3.862s)
+end_generation (process = 3, time = 3.862s)
+Result[47] = 31416.34
+
+end_generation (process = 2, time = 3.805s)
+end_generation (process = 1, time = 3.841s)
+end_generation (process = 3, time = 3.862s)
+end_generation (process = 0, time = 3.865s)
+Result[48] = 31411.318
+
+end_generation (process = 2, time = 3.648s)
+end_generation (process = 1, time = 3.706s)
+end_generation (process = 0, time = 3.708s)
+end_generation (process = 3, time = 3.708s)
+Result[49] = 31413.494
+
+
+[Result]
+Mean value = 31416
+Dispersion = 16.05
+
+[Time]
+Mean value = 3.8008
+Dispersion = 0.0063037
+
+
+
+>>> Running tests
+[Loaded circles]
+Circle(0) :: r = 100, center = (0, 0)
+
+
+[Running statistics test] This test consists of 50 iterations for 5 cores
+
+end_generation (process = 1, time = 3.278s)
+end_generation (process = 3, time = 3.287s)
+end_generation (process = 2, time = 3.327s)
+end_generation (process = 0, time = 3.338s)
+end_generation (process = 4, time = 3.338s)
+Result[0] = 31406.412
+
+end_generation (process = 3, time = 3.285s)
+end_generation (process = 4, time = 3.304s)
+end_generation (process = 1, time = 3.325s)
+end_generation (process = 2, time = 3.335s)
+end_generation (process = 0, time = 3.335s)
+Result[1] = 31414.07
+
+end_generation (process = 3, time = 3.264s)
+end_generation (process = 1, time = 3.318s)
+end_generation (process = 4, time = 3.32s)
+end_generation (process = 2, time = 3.35s)
+end_generation (process = 0, time = 3.35s)
+Result[2] = 31415.65
+
+end_generation (process = 3, time = 3.252s)
+end_generation (process = 4, time = 3.311s)
+end_generation (process = 1, time = 3.315s)
+end_generation (process = 0, time = 3.33s)
+Result[3] = 31413.75
+
+end_generation (process = 2, time = 3.33s)
+end_generation (process = 4, time = 3.313s)
+end_generation (process = 1, time = 3.319s)
+end_generation (process = 2, time = 3.324s)
+end_generation (process = 3, time = 3.344s)
+end_generation (process = 0, time = 3.344s)
+Result[4] = 31409.662
+
+end_generation (process = 3, time = 3.303s)
+end_generation (process = 4, time = 3.31s)
+end_generation (process = 2, time = 3.336s)
+end_generation (process = 0, time = 3.351s)
+Result[5] = 31417.058
+
+end_generation (process = 1, time = 3.351s)
+end_generation (process = 3, time = 3.292s)
+end_generation (process = 4, time = 3.313s)
+end_generation (process = 1, time = 3.33s)
+end_generation (process = 0, time = 3.358s)
+Result[6] = 31416.3
+
+end_generation (process = 2, time = 3.358s)
+end_generation (process = 1, time = 3.281s)
+end_generation (process = 4, time = 3.337s)
+end_generation (process = 2, time = 3.337s)
+end_generation (process = 3, time = 3.381s)
+end_generation (process = 0, time = 3.381s)
+Result[7] = 31412.804
+
+end_generation (process = 1, time = 3.305s)
+end_generation (process = 4, time = 3.329s)
+end_generation (process = 2, time = 3.339s)
+end_generation (process = 0, time = 3.358s)
+Result[8] = 31421.566
+
+end_generation (process = 3, time = 3.358s)
+end_generation (process = 3, time = 3.263s)
+end_generation (process = 1, time = 3.324s)
+end_generation (process = 2, time = 3.357s)
+end_generation (process = 4, time = 3.368s)
+end_generation (process = 0, time = 3.368s)
+Result[9] = 31417.61
+
+end_generation (process = 3, time = 3.255s)
+end_generation (process = 1, time = 3.316s)
+end_generation (process = 4, time = 3.317s)
+end_generation (process = 2, time = 3.338s)
+end_generation (process = 0, time = 3.338s)
+Result[10] = 31416.312
+
+end_generation (process = 3, time = 3.293s)
+end_generation (process = 4, time = 3.314s)
+end_generation (process = 1, time = 3.341s)
+end_generation (process = 0, time = 3.359s)
+end_generation (process = 2, time = 3.359s)
+Result[11] = 31420.078
+
+end_generation (process = 4, time = 3.307s)
+end_generation (process = 3, time = 3.325s)
+end_generation (process = 1, time = 3.328s)
+end_generation (process = 2, time = 3.381s)
+end_generation (process = 0, time = 3.381s)
+Result[12] = 31412.228
+
+end_generation (process = 1, time = 3.292s)
+end_generation (process = 3, time = 3.301s)
+end_generation (process = 4, time = 3.31s)
+end_generation (process = 0, time = 3.355s)
+end_generation (process = 2, time = 3.355s)
+Result[13] = 31415.25
+
+end_generation (process = 1, time = 3.412s)
+end_generation (process = 2, time = 3.43s)
+end_generation (process = 4, time = 3.518s)
+end_generation (process = 0, time = 3.529s)
+end_generation (process = 3, time = 3.529s)
+Result[14] = 31414.34
+
+end_generation (process = 2, time = 3.33s)
+end_generation (process = 3, time = 3.352s)
+end_generation (process = 1, time = 3.382s)
+end_generation (process = 4, time = 3.508s)
+end_generation (process = 0, time = 3.508s)
+Result[15] = 31409.424
+
+end_generation (process = 3, time = 3.305s)
+end_generation (process = 1, time = 3.307s)
+end_generation (process = 2, time = 3.323s)
+end_generation (process = 0, time = 3.402s)
+Result[16] = 31413.512
+
+end_generation (process = 4, time = 3.402s)
+end_generation (process = 1, time = 3.283s)
+end_generation (process = 3, time = 3.301s)
+end_generation (process = 2, time = 3.319s)
+end_generation (process = 4, time = 3.348s)
+end_generation (process = 0, time = 3.348s)
+Result[17] = 31414.94
+
+end_generation (process = 3, time = 3.261s)
+end_generation (process = 1, time = 3.288s)
+end_generation (process = 2, time = 3.301s)
+end_generation (process = 4, time = 3.343s)
+end_generation (process = 0, time = 3.343s)
+Result[18] = 31416.194
+
+end_generation (process = 3, time = 3.279s)
+end_generation (process = 1, time = 3.279s)
+end_generation (process = 4, time = 3.318s)
+end_generation (process = 2, time = 3.327s)
+end_generation (process = 0, time = 3.327s)
+Result[19] = 31417.912
+
+end_generation (process = 3, time = 3.278s)
+end_generation (process = 1, time = 3.283s)
+end_generation (process = 4, time = 3.326s)
+end_generation (process = 2, time = 3.33s)
+end_generation (process = 0, time = 3.33s)
+Result[20] = 31415.27
+
+end_generation (process = 3, time = 3.297s)
+end_generation (process = 1, time = 3.304s)
+end_generation (process = 2, time = 3.309s)
+end_generation (process = 4, time = 3.4s)
+end_generation (process = 0, time = 3.4s)
+Result[21] = 31416.126
+
+end_generation (process = 3, time = 3.323s)
+end_generation (process = 4, time = 3.331s)
+end_generation (process = 2, time = 3.344s)
+end_generation (process = 1, time = 3.367s)
+end_generation (process = 0, time = 3.367s)
+Result[22] = 31423.324
+
+end_generation (process = 3, time = 3.288s)
+end_generation (process = 1, time = 3.295s)
+end_generation (process = 4, time = 3.327s)
+end_generation (process = 2, time = 3.345s)
+end_generation (process = 0, time = 3.439s)
+Result[23] = 31410.958
+
+end_generation (process = 3, time = 3.325s)
+end_generation (process = 4, time = 3.457s)
+end_generation (process = 1, time = 3.475s)
+end_generation (process = 0, time = 3.635s)
+Result[24] = 31414.268
+
+end_generation (process = 2, time = 3.635s)
+end_generation (process = 1, time = 3.338s)
+end_generation (process = 3, time = 3.395s)
+end_generation (process = 2, time = 3.398s)
+end_generation (process = 0, time = 3.41s)
+end_generation (process = 4, time = 3.41s)
+Result[25] = 31417.53
+
+end_generation (process = 1, time = 3.339s)
+end_generation (process = 3, time = 3.379s)
+end_generation (process = 2, time = 3.5s)
+end_generation (process = 4, time = 3.51s)
+end_generation (process = 0, time = 3.51s)
+Result[26] = 31414
+
+end_generation (process = 1, time = 3.281s)
+end_generation (process = 2, time = 3.333s)
+end_generation (process = 3, time = 3.415s)
+end_generation (process = 4, time = 3.45s)
+end_generation (process = 0, time = 3.45s)
+Result[27] = 31413.15
+
+end_generation (process = 1, time = 3.278s)
+end_generation (process = 2, time = 3.313s)
+end_generation (process = 4, time = 3.324s)
+end_generation (process = 0, time = 3.384s)
+end_generation (process = 3, time = 3.384s)
+Result[28] = 31413.962
+
+end_generation (process = 3, time = 3.289s)
+end_generation (process = 1, time = 3.291s)
+end_generation (process = 2, time = 3.316s)
+end_generation (process = 4, time = 3.34s)
+end_generation (process = 0, time = 3.341s)
+Result[29] = 31417.118
+
+end_generation (process = 3, time = 3.275s)
+end_generation (process = 2, time = 3.313s)
+end_generation (process = 4, time = 3.322s)
+end_generation (process = 1, time = 3.511s)
+end_generation (process = 0, time = 3.511s)
+Result[30] = 31419.154
+
+end_generation (process = 3, time = 3.402s)
+end_generation (process = 1, time = 3.494s)
+end_generation (process = 2, time = 3.511s)
+end_generation (process = 4, time = 3.572s)
+end_generation (process = 0, time = 3.572s)
+Result[31] = 31413.934
+
+end_generation (process = 2, time = 3.343s)
+end_generation (process = 3, time = 3.576s)
+end_generation (process = 4, time = 3.77s)
+end_generation (process = 1, time = 3.814s)
+end_generation (process = 0, time = 3.814s)
+Result[32] = 31411.72
+
+end_generation (process = 3, time = 3.411s)
+end_generation (process = 4, time = 3.509s)
+end_generation (process = 2, time = 3.54s)
+end_generation (process = 0, time = 3.793s)
+end_generation (process = 1, time = 3.793s)
+Result[33] = 31415.11
+
+end_generation (process = 3, time = 3.301s)
+end_generation (process = 4, time = 3.319s)
+end_generation (process = 2, time = 3.323s)
+end_generation (process = 0, time = 3.378s)
+Result[34] = 31416.164
+
+end_generation (process = 1, time = 3.378s)
+end_generation (process = 3, time = 3.268s)
+end_generation (process = 4, time = 3.366s)
+end_generation (process = 2, time = 3.422s)
+end_generation (process = 0, time = 3.439s)
+Result[35] = 31417.568
+
+end_generation (process = 1, time = 3.439s)
+end_generation (process = 2, time = 3.377s)
+end_generation (process = 4, time = 3.432s)
+end_generation (process = 3, time = 3.5s)
+end_generation (process = 1, time = 3.547s)
+end_generation (process = 0, time = 3.547s)
+Result[36] = 31415.368
+
+end_generation (process = 3, time = 3.302s)
+end_generation (process = 2, time = 3.302s)
+end_generation (process = 1, time = 3.313s)
+end_generation (process = 4, time = 3.316s)
+end_generation (process = 0, time = 3.316s)
+Result[37] = 31417.596
+
+end_generation (process = 3, time = 3.254s)
+end_generation (process = 2, time = 3.301s)
+end_generation (process = 1, time = 3.31s)
+end_generation (process = 0, time = 3.323s)
+end_generation (process = 4, time = 3.323s)
+Result[38] = 31411.106
+
+end_generation (process = 3, time = 3.274s)
+end_generation (process = 2, time = 3.297s)
+end_generation (process = 4, time = 3.316s)
+end_generation (process = 1, time = 3.325s)
+end_generation (process = 0, time = 3.325s)
+Result[39] = 31418.488
+
+end_generation (process = 3, time = 3.288s)
+end_generation (process = 2, time = 3.325s)
+end_generation (process = 1, time = 3.439s)
+end_generation (process = 0, time = 3.531s)
+end_generation (process = 4, time = 3.531s)
+Result[40] = 31418.728
+
+end_generation (process = 3, time = 3.271s)
+end_generation (process = 2, time = 3.313s)
+end_generation (process = 1, time = 3.379s)
+end_generation (process = 4, time = 3.388s)
+end_generation (process = 0, time = 3.388s)
+Result[41] = 31417.306
+
+end_generation (process = 1, time = 3.302s)
+end_generation (process = 2, time = 3.314s)
+end_generation (process = 3, time = 3.335s)
+end_generation (process = 0, time = 3.459s)
+end_generation (process = 4, time = 3.459s)
+Result[42] = 31420.214
+
+end_generation (process = 3, time = 3.284s)
+end_generation (process = 2, time = 3.31s)
+end_generation (process = 4, time = 3.338s)
+end_generation (process = 1, time = 3.398s)
+end_generation (process = 0, time = 3.398s)
+Result[43] = 31420.984
+
+end_generation (process = 2, time = 3.311s)
+end_generation (process = 3, time = 3.401s)
+end_generation (process = 4, time = 3.425s)
+end_generation (process = 1, time = 3.466s)
+end_generation (process = 0, time = 3.466s)
+Result[44] = 31421.798
+
+end_generation (process = 3, time = 3.25s)
+end_generation (process = 2, time = 3.304s)
+end_generation (process = 4, time = 3.307s)
+end_generation (process = 0, time = 3.398s)
+end_generation (process = 1, time = 3.398s)
+Result[45] = 31423.384
+
+end_generation (process = 4, time = 3.281s)
+end_generation (process = 3, time = 3.286s)
+end_generation (process = 2, time = 3.301s)
+end_generation (process = 0, time = 3.404s)
+end_generation (process = 1, time = 3.404s)
+Result[46] = 31416.88
+
+end_generation (process = 3, time = 3.264s)
+end_generation (process = 4, time = 3.337s)
+end_generation (process = 1, time = 3.347s)
+end_generation (process = 2, time = 3.443s)
+end_generation (process = 0, time = 3.443s)
+Result[47] = 31409.296
+
+end_generation (process = 3, time = 3.259s)
+end_generation (process = 1, time = 3.303s)
+end_generation (process = 4, time = 3.365s)
+end_generation (process = 2, time = 3.418s)
+end_generation (process = 0, time = 3.418s)
+Result[48] = 31415.194
+
+end_generation (process = 1, time = 3.29s)
+end_generation (process = 3, time = 3.302s)
+end_generation (process = 2, time = 3.369s)
+end_generation (process = 4, time = 3.372s)
+end_generation (process = 0, time = 3.372s)
+Result[49] = 31413.864
+
+
+[Result]
+Mean value = 31416
+Dispersion = 12.64
+
+[Time]
+Mean value = 3.377
+Dispersion = 0.0082743
+
+
+>>> Running tests
+[Loaded circles]
+Circle(0) :: r = 100, center = (0, 0)
+
+
+[Running statistics test] This test consists of 50 iterations for 6 cores
+
+end_generation (process = 5, time = 2.777s)
+end_generation (process = 1, time = 2.816s)
+end_generation (process = 3, time = 2.832s)
+end_generation (process = 2, time = 2.957s)
+end_generation (process = 0, time = 3s)
+end_generation (process = 4, time = 3s)
+Result[0] = 31416.568
+
+end_generation (process = 5, time = 2.765s)
+end_generation (process = 4, time = 2.769s)
+end_generation (process = 2, time = 2.772s)
+end_generation (process = 1, time = 2.987s)
+end_generation (process = 0, time = 3.038s)
+end_generation (process = 3, time = 3.037s)
+Result[1] = 31410.484
+
+end_generation (process = 2, time = 2.742s)
+end_generation (process = 5, time = 2.797s)
+end_generation (process = 3, time = 2.863s)
+end_generation (process = 1, time = 3.06s)
+end_generation (process = 0, time = 3.191s)
+end_generation (process = 4, time = 3.191s)
+Result[2] = 31415.414
+
+end_generation (process = 2, time = 2.726s)
+end_generation (process = 5, time = 2.806s)
+end_generation (process = 3, time = 2.834s)
+end_generation (process = 4, time = 2.989s)
+end_generation (process = 1, time = 3.03s)
+end_generation (process = 0, time = 3.03s)
+Result[3] = 31421.064
+
+end_generation (process = 2, time = 2.769s)
+end_generation (process = 4, time = 2.834s)
+end_generation (process = 3, time = 2.855s)
+end_generation (process = 5, time = 2.907s)
+end_generation (process = 0, time = 2.973s)
+end_generation (process = 1, time = 2.973s)
+Result[4] = 31420.216
+
+end_generation (process = 4, time = 2.762s)
+end_generation (process = 2, time = 2.855s)
+end_generation (process = 3, time = 2.887s)
+end_generation (process = 1, time = 3.265s)
+end_generation (process = 5, time = 3.313s)
+end_generation (process = 0, time = 3.313s)
+Result[5] = 31409.182
+
+end_generation (process = 4, time = 2.748s)
+end_generation (process = 2, time = 2.763s)
+end_generation (process = 3, time = 2.928s)
+end_generation (process = 1, time = 2.95s)
+end_generation (process = 0, time = 2.98s)
+end_generation (process = 5, time = 2.98s)
+Result[6] = 31411.33
+
+end_generation (process = 4, time = 2.912s)
+end_generation (process = 2, time = 2.925s)
+end_generation (process = 3, time = 2.946s)
+end_generation (process = 1, time = 3.374s)
+end_generation (process = 0, time = 3.639s)
+end_generation (process = 5, time = 3.638s)
+Result[7] = 31421.914
+
+end_generation (process = 2, time = 2.759s)
+end_generation (process = 5, time = 2.774s)
+end_generation (process = 3, time = 2.961s)
+end_generation (process = 4, time = 2.956s)
+end_generation (process = 1, time = 2.996s)
+end_generation (process = 0, time = 2.996s)
+Result[8] = 31416.666
+
+end_generation (process = 2, time = 2.715s)
+end_generation (process = 3, time = 2.754s)
+end_generation (process = 5, time = 2.785s)
+end_generation (process = 1, time = 2.807s)
+end_generation (process = 4, time = 2.838s)
+end_generation (process = 0, time = 2.838s)
+Result[9] = 31420.236
+
+end_generation (process = 2, time = 2.746s)
+end_generation (process = 5, time = 2.774s)
+end_generation (process = 3, time = 2.783s)
+end_generation (process = 4, time = 2.792s)
+end_generation (process = 0, time = 2.841s)
+end_generation (process = 1, time = 2.841s)
+Result[10] = 31415.592
+
+end_generation (process = 2, time = 2.732s)
+end_generation (process = 5, time = 2.761s)
+end_generation (process = 3, time = 2.801s)
+end_generation (process = 4, time = 2.857s)
+end_generation (process = 1, time = 2.965s)
+end_generation (process = 0, time = 2.965s)
+Result[11] = 31414.776
+
+end_generation (process = 2, time = 2.761s)
+end_generation (process = 3, time = 2.8s)
+end_generation (process = 1, time = 2.829s)
+end_generation (process = 4, time = 2.886s)
+end_generation (process = 0, time = 2.898s)
+Result[12] = 31415.944
+
+end_generation (process = 5, time = 2.898s)
+end_generation (process = 3, time = 3.319s)
+end_generation (process = 4, time = 3.35s)
+end_generation (process = 2, time = 3.502s)
+end_generation (process = 1, time = 3.504s)
+end_generation (process = 5, time = 3.838s)
+end_generation (process = 0, time = 3.838s)
+Result[13] = 31414.358
+
+end_generation (process = 3, time = 2.763s)
+end_generation (process = 4, time = 2.766s)
+end_generation (process = 2, time = 2.83s)
+end_generation (process = 1, time = 2.851s)
+end_generation (process = 5, time = 2.852s)
+end_generation (process = 0, time = 2.882s)
+Result[14] = 31415.456
+
+end_generation (process = 2, time = 2.806s)
+end_generation (process = 4, time = 2.821s)
+end_generation (process = 3, time = 2.839s)
+end_generation (process = 1, time = 2.912s)
+end_generation (process = 0, time = 3.015s)
+end_generation (process = 5, time = 3.015s)
+Result[15] = 31414.16
+
+end_generation (process = 1, time = 2.744s)
+end_generation (process = 2, time = 2.771s)
+end_generation (process = 4, time = 2.814s)
+end_generation (process = 3, time = 2.863s)
+end_generation (process = 0, time = 3.009s)
+end_generation (process = 5, time = 3.009s)
+Result[16] = 31416.77
+
+end_generation (process = 1, time = 2.837s)
+end_generation (process = 3, time = 2.918s)
+end_generation (process = 4, time = 3.005s)
+end_generation (process = 2, time = 3.109s)
+end_generation (process = 0, time = 3.14s)
+end_generation (process = 5, time = 3.151s)
+Result[17] = 31417.638
+
+end_generation (process = 1, time = 2.869s)
+end_generation (process = 2, time = 2.881s)
+end_generation (process = 5, time = 2.898s)
+end_generation (process = 3, time = 2.903s)
+end_generation (process = 4, time = 3.215s)
+end_generation (process = 0, time = 3.215s)
+Result[18] = 31413.564
+
+end_generation (process = 2, time = 2.731s)
+end_generation (process = 1, time = 2.75s)
+end_generation (process = 5, time = 2.767s)
+end_generation (process = 3, time = 2.79s)
+end_generation (process = 4, time = 2.827s)
+end_generation (process = 0, time = 2.827s)
+Result[19] = 31416.974
+
+end_generation (process = 2, time = 2.719s)
+end_generation (process = 5, time = 2.807s)
+end_generation (process = 4, time = 2.815s)
+end_generation (process = 3, time = 2.841s)
+end_generation (process = 0, time = 2.858s)
+end_generation (process = 1, time = 2.858s)
+Result[20] = 31422.138
+
+end_generation (process = 2, time = 2.708s)
+end_generation (process = 3, time = 2.744s)
+end_generation (process = 1, time = 2.753s)
+end_generation (process = 5, time = 2.773s)
+end_generation (process = 4, time = 2.835s)
+end_generation (process = 0, time = 2.835s)
+Result[21] = 31422.994
+
+end_generation (process = 5, time = 2.815s)
+end_generation (process = 2, time = 2.845s)
+end_generation (process = 4, time = 2.863s)
+end_generation (process = 3, time = 3.08s)
+end_generation (process = 0, time = 3.149s)
+Result[22] = 31414.18
+
+end_generation (process = 1, time = 3.149s)
+end_generation (process = 5, time = 2.764s)
+end_generation (process = 3, time = 2.788s)
+end_generation (process = 2, time = 2.796s)
+end_generation (process = 4, time = 2.831s)
+end_generation (process = 0, time = 2.882s)
+end_generation (process = 1, time = 2.876s)
+Result[23] = 31417.662
+
+end_generation (process = 1, time = 2.754s)
+end_generation (process = 3, time = 2.768s)
+end_generation (process = 5, time = 2.782s)
+end_generation (process = 4, time = 2.815s)
+end_generation (process = 2, time = 2.847s)
+end_generation (process = 0, time = 2.847s)
+Result[24] = 31412.704
+
+end_generation (process = 2, time = 2.795s)
+end_generation (process = 5, time = 2.811s)
+end_generation (process = 4, time = 2.814s)
+end_generation (process = 3, time = 2.877s)
+end_generation (process = 0, time = 2.989s)
+end_generation (process = 1, time = 2.989s)
+Result[25] = 31412.992
+
+end_generation (process = 3, time = 2.744s)
+end_generation (process = 1, time = 2.759s)
+end_generation (process = 5, time = 2.787s)
+end_generation (process = 2, time = 2.788s)
+end_generation (process = 0, time = 2.804s)
+end_generation (process = 4, time = 2.805s)
+Result[26] = 31415.858
+
+end_generation (process = 3, time = 2.734s)
+end_generation (process = 2, time = 2.753s)
+end_generation (process = 1, time = 2.765s)
+end_generation (process = 5, time = 2.78s)
+end_generation (process = 4, time = 2.821s)
+end_generation (process = 0, time = 2.821s)
+Result[27] = 31418.974
+
+end_generation (process = 2, time = 2.707s)
+end_generation (process = 3, time = 2.753s)
+end_generation (process = 5, time = 2.783s)
+end_generation (process = 1, time = 2.783s)
+end_generation (process = 4, time = 2.837s)
+end_generation (process = 0, time = 2.837s)
+Result[28] = 31418.974
+
+end_generation (process = 2, time = 2.713s)
+end_generation (process = 5, time = 2.785s)
+end_generation (process = 3, time = 2.787s)
+end_generation (process = 4, time = 2.819s)
+end_generation (process = 0, time = 3.009s)
+end_generation (process = 1, time = 3.01s)
+Result[29] = 31416.014
+
+end_generation (process = 5, time = 2.764s)
+end_generation (process = 2, time = 2.797s)
+end_generation (process = 4, time = 2.825s)
+end_generation (process = 3, time = 2.948s)
+end_generation (process = 0, time = 3.003s)
+end_generation (process = 1, time = 3.003s)
+Result[30] = 31420.652
+
+end_generation (process = 2, time = 2.74s)
+end_generation (process = 5, time = 2.771s)
+end_generation (process = 1, time = 2.805s)
+end_generation (process = 4, time = 2.821s)
+end_generation (process = 0, time = 2.972s)
+end_generation (process = 3, time = 2.972s)
+Result[31] = 31415.1
+
+end_generation (process = 5, time = 2.776s)
+end_generation (process = 2, time = 2.779s)
+end_generation (process = 1, time = 2.889s)
+end_generation (process = 3, time = 2.938s)
+end_generation (process = 4, time = 2.974s)
+end_generation (process = 0, time = 2.973s)
+Result[32] = 31414.188
+
+end_generation (process = 2, time = 2.738s)
+end_generation (process = 5, time = 2.837s)
+end_generation (process = 4, time = 2.839s)
+end_generation (process = 1, time = 2.946s)
+end_generation (process = 0, time = 2.964s)
+end_generation (process = 3, time = 2.964s)
+Result[33] = 31415.278
+
+end_generation (process = 4, time = 2.788s)
+end_generation (process = 2, time = 2.793s)
+end_generation (process = 3, time = 2.814s)
+end_generation (process = 5, time = 2.847s)
+end_generation (process = 0, time = 2.896s)
+end_generation (process = 1, time = 2.896s)
+Result[34] = 31415.058
+
+end_generation (process = 2, time = 2.782s)
+end_generation (process = 4, time = 2.832s)
+end_generation (process = 1, time = 2.849s)
+end_generation (process = 3, time = 3.043s)
+end_generation (process = 0, time = 3.122s)
+end_generation (process = 5, time = 3.123s)
+Result[35] = 31419.412
+
+end_generation (process = 2, time = 2.724s)
+end_generation (process = 1, time = 2.769s)
+end_generation (process = 4, time = 2.91s)
+end_generation (process = 3, time = 3.059s)
+end_generation (process = 5, time = 3.07s)
+end_generation (process = 0, time = 3.07s)
+Result[36] = 31420.144
+
+end_generation (process = 2, time = 2.714s)
+end_generation (process = 1, time = 2.761s)
+end_generation (process = 4, time = 2.868s)
+end_generation (process = 3, time = 2.891s)
+end_generation (process = 5, time = 2.917s)
+end_generation (process = 0, time = 2.917s)
+Result[37] = 31416.684
+
+end_generation (process = 2, time = 2.824s)
+end_generation (process = 3, time = 2.924s)
+end_generation (process = 1, time = 2.948s)
+end_generation (process = 5, time = 2.97s)
+end_generation (process = 0, time = 3.154s)
+end_generation (process = 4, time = 3.154s)
+Result[38] = 31414.696
+
+end_generation (process = 2, time = 2.727s)
+end_generation (process = 4, time = 2.768s)
+end_generation (process = 1, time = 2.771s)
+end_generation (process = 5, time = 2.771s)
+end_generation (process = 0, time = 2.836s)
+end_generation (process = 3, time = 2.836s)
+Result[39] = 31417.834
+
+end_generation (process = 2, time = 2.724s)
+end_generation (process = 1, time = 2.748s)
+end_generation (process = 4, time = 2.752s)
+end_generation (process = 3, time = 2.78s)
+end_generation (process = 5, time = 2.797s)
+end_generation (process = 0, time = 2.806s)
+Result[40] = 31414.956
+
+end_generation (process = 2, time = 2.732s)
+end_generation (process = 1, time = 2.747s)
+end_generation (process = 4, time = 2.764s)
+end_generation (process = 3, time = 2.779s)
+end_generation (process = 5, time = 2.782s)
+end_generation (process = 0, time = 2.79s)
+Result[41] = 31414.274
+
+end_generation (process = 2, time = 2.725s)
+end_generation (process = 1, time = 2.75s)
+end_generation (process = 3, time = 2.771s)
+end_generation (process = 4, time = 2.776s)
+end_generation (process = 5, time = 2.795s)
+end_generation (process = 0, time = 2.815s)
+Result[42] = 31416.62
+
+end_generation (process = 2, time = 2.744s)
+end_generation (process = 1, time = 2.756s)
+end_generation (process = 3, time = 2.772s)
+end_generation (process = 4, time = 2.778s)
+end_generation (process = 5, time = 2.784s)
+end_generation (process = 0, time = 2.808s)
+Result[43] = 31413.01
+
+end_generation (process = 2, time = 2.727s)
+end_generation (process = 1, time = 2.748s)
+end_generation (process = 5, time = 2.772s)
+end_generation (process = 3, time = 2.786s)
+end_generation (process = 4, time = 2.797s)
+end_generation (process = 0, time = 2.797s)
+Result[44] = 31417.04
+
+end_generation (process = 1, time = 2.752s)
+end_generation (process = 4, time = 2.771s)
+end_generation (process = 5, time = 2.775s)
+end_generation (process = 3, time = 2.791s)
+end_generation (process = 2, time = 2.798s)
+end_generation (process = 0, time = 2.798s)
+Result[45] = 31418.06
+
+end_generation (process = 2, time = 2.709s)
+end_generation (process = 1, time = 2.745s)
+end_generation (process = 4, time = 2.773s)
+end_generation (process = 5, time = 2.802s)
+end_generation (process = 0, time = 2.82s)
+end_generation (process = 3, time = 2.82s)
+Result[46] = 31416.252
+
+end_generation (process = 1, time = 2.752s)
+end_generation (process = 2, time = 2.758s)
+end_generation (process = 5, time = 2.772s)
+end_generation (process = 4, time = 2.783s)
+end_generation (process = 3, time = 2.808s)
+end_generation (process = 0, time = 2.808s)
+Result[47] = 31412.566
+
+end_generation (process = 2, time = 2.698s)
+end_generation (process = 1, time = 2.756s)
+end_generation (process = 4, time = 2.763s)
+end_generation (process = 5, time = 2.781s)
+end_generation (process = 3, time = 2.79s)
+end_generation (process = 0, time = 2.79s)
+Result[48] = 31417.576
+
+end_generation (process = 2, time = 2.734s)
+end_generation (process = 1, time = 2.766s)
+end_generation (process = 4, time = 2.769s)
+end_generation (process = 5, time = 2.798s)
+end_generation (process = 3, time = 2.816s)
+end_generation (process = 0, time = 2.816s)
+Result[49] = 31413.93
+
+
+[Result]
+Mean value = 31416
+Dispersion = 8.79
+
+[Time]
+Mean value = 2.8819
+Dispersion = 0.044522
+
+

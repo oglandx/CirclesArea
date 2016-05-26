@@ -6,8 +6,6 @@
 #define	TYPES_H
 
 #include <cmath>
-#include <vector>
-#include <pthread.h>
 
 typedef double T;
 
@@ -88,20 +86,5 @@ public:
 };
 
 typedef Point* (*RandomFunction)(const Rect*, int);
-
-struct PointGeneratorStruct{
-    unsigned long count;
-    int density;
-    const Rect *rect;
-
-    PointGeneratorStruct(unsigned long count,
-                         int density,
-                         const Rect *rect)
-    {
-        this->count = count;
-        this->density = density;
-        this->rect = rect;
-    }
-};
 
 #endif /* TYPES_H */
