@@ -1,0 +1,1570 @@
+[Loaded circles]
+Circle(0) :: r = 100, center = (0, 0)
+
+
+>>>Running statistics test. This test consists of 50 iterations for 1 cores
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.443s)
+Result[0] = 31416.212
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.093s)
+Result[1] = 31407.96
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.111s)
+Result[2] = 31416.882
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.088s)
+Result[3] = 31420.194
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.114s)
+Result[4] = 31416.86
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.089s)
+Result[5] = 31418.282
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.29s)
+Result[6] = 31420.186
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.138s)
+Result[7] = 31413.122
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.11s)
+Result[8] = 31418.924
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.181s)
+Result[9] = 31415.862
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.195s)
+Result[10] = 31415.312
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.425s)
+Result[11] = 31410.232
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.36s)
+Result[12] = 31418.636
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.194s)
+Result[13] = 31415.718
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.367s)
+Result[14] = 31417.476
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.235s)
+Result[15] = 31418.338
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.114s)
+Result[16] = 31411.858
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.094s)
+Result[17] = 31415.714
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.169s)
+Result[18] = 31413.366
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.117s)
+Result[19] = 31415.192
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.342s)
+Result[20] = 31419.908
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.247s)
+Result[21] = 31418.46
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.185s)
+Result[22] = 31422.698
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.135s)
+Result[23] = 31414.396
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.122s)
+Result[24] = 31420.282
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.191s)
+Result[25] = 31416.094
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.134s)
+Result[26] = 31413.542
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.172s)
+Result[27] = 31416.822
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.126s)
+Result[28] = 31413.898
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.128s)
+Result[29] = 31414.968
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.121s)
+Result[30] = 31413.782
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.144s)
+Result[31] = 31413.76
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.123s)
+Result[32] = 31418.022
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.15s)
+Result[33] = 31409.9
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.138s)
+Result[34] = 31412.982
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.142s)
+Result[35] = 31412.572
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.123s)
+Result[36] = 31418.606
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.138s)
+Result[37] = 31416.376
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.125s)
+Result[38] = 31418.018
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.174s)
+Result[39] = 31424.69
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.293s)
+Result[40] = 31416.234
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.227s)
+Result[41] = 31411.672
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.443s)
+Result[42] = 31416.784
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.231s)
+Result[43] = 31414.212
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.312s)
+Result[44] = 31412.934
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.522s)
+Result[45] = 31422.922
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.199s)
+Result[46] = 31419.81
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.484s)
+Result[47] = 31416.028
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.571s)
+Result[48] = 31413.848
+
+$start_generation....
+Using 1 cores
+end_generation (time = 14.108s)
+Result[49] = 31415.138
+
+
+[Result]
+Mean value = 31416.11368
+Dispersion = 11.07398086
+
+[Time]
+Mean value = 14.21
+Dispersion = 0.015213
+
+>>>Running statistics test. This test consists of 50 iterations for 2 cores
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.756s)
+Result[0] = 31408.99
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.142s)
+Result[1] = 31415.004
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.013s)
+Result[2] = 31414.564
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.116s)
+Result[3] = 31412.05
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.577s)
+Result[4] = 31417.762
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.289s)
+Result[5] = 31413.756
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.318s)
+Result[6] = 31410.734
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.549s)
+Result[7] = 31415.864
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.451s)
+Result[8] = 31416.564
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.349s)
+Result[9] = 31414.024
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.11s)
+Result[10] = 31417.138
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.463s)
+Result[11] = 31411.366
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.258s)
+Result[12] = 31413.3
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.088s)
+Result[13] = 31410.254
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.812s)
+Result[14] = 31410.666
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.03s)
+Result[15] = 31414.076
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.144s)
+Result[16] = 31410.012
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.189s)
+Result[17] = 31413.574
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.227s)
+Result[18] = 31414.71
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.293s)
+Result[19] = 31412.514
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.139s)
+Result[20] = 31419.908
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.063s)
+Result[21] = 31415.942
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.717s)
+Result[22] = 31414.258
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.73s)
+Result[23] = 31409.604
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.604s)
+Result[24] = 31420.01
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.744s)
+Result[25] = 31416.764
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.731s)
+Result[26] = 31418.518
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.967s)
+Result[27] = 31413.832
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.99s)
+Result[28] = 31412.914
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.828s)
+Result[29] = 31412.756
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.97s)
+Result[30] = 31411.314
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.859s)
+Result[31] = 31414.764
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.014s)
+Result[32] = 31410.882
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.942s)
+Result[33] = 31415.062
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.406s)
+Result[34] = 31415.804
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.806s)
+Result[35] = 31414.6
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.995s)
+Result[36] = 31414.336
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.933s)
+Result[37] = 31414.988
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.627s)
+Result[38] = 31423.362
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.346s)
+Result[39] = 31413.018
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.303s)
+Result[40] = 31409.51
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.356s)
+Result[41] = 31418.958
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.377s)
+Result[42] = 31418.936
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.138s)
+Result[43] = 31414.936
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.194s)
+Result[44] = 31411.646
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.251s)
+Result[45] = 31415.776
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.105s)
+Result[46] = 31410.37
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.218s)
+Result[47] = 31407.342
+
+$start_generation....
+Using 2 cores
+end_generation (time = 11.087s)
+Result[48] = 31404.588
+
+$start_generation....
+Using 2 cores
+end_generation (time = 10.88s)
+Result[49] = 31408.214
+
+
+[Result]
+Mean value = 31413.79668
+Dispersion = 12.39041898
+
+[Time]
+Mean value = 11.11
+Dispersion = 0.05943
+
+>>>Running statistics test. This test consists of 50 iterations for 3 cores
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.569s)
+Result[0] = 31415.862
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.542s)
+Result[1] = 31413
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.607s)
+Result[2] = 31408.79
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.623s)
+Result[3] = 31416.884
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.017s)
+Result[4] = 31410.828
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.789s)
+Result[5] = 31410.238
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.018s)
+Result[6] = 31415.86
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.774s)
+Result[7] = 31413.026
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.882s)
+Result[8] = 31421.742
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.227s)
+Result[9] = 31414.23
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.914s)
+Result[10] = 31415.76
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.762s)
+Result[11] = 31410.272
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.126s)
+Result[12] = 31414.448
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.773s)
+Result[13] = 31407.758
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.411s)
+Result[14] = 31415.222
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.73s)
+Result[15] = 31421.686
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.705s)
+Result[16] = 31413.806
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.66s)
+Result[17] = 31416.028
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.731s)
+Result[18] = 31411.968
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.03s)
+Result[19] = 31416.518
+
+$start_generation....
+Using 3 cores
+end_generation (time = 13.616s)
+Result[20] = 31420.71
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.738s)
+Result[21] = 31413.804
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.054s)
+Result[22] = 31418.89
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.762s)
+Result[23] = 31416.674
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.529s)
+Result[24] = 31413.714
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.657s)
+Result[25] = 31414.96
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.983s)
+Result[26] = 31412.234
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.647s)
+Result[27] = 31417.582
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.439s)
+Result[28] = 31416.94
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.585s)
+Result[29] = 31415.846
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.86s)
+Result[30] = 31408.064
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.331s)
+Result[31] = 31417.102
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.164s)
+Result[32] = 31418.228
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.55s)
+Result[33] = 31418.122
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.936s)
+Result[34] = 31413.45
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.826s)
+Result[35] = 31413.156
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.296s)
+Result[36] = 31420.48
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.774s)
+Result[37] = 31418.74
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.229s)
+Result[38] = 31415.744
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.579s)
+Result[39] = 31409.91
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.445s)
+Result[40] = 31416.3
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.689s)
+Result[41] = 31406
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.563s)
+Result[42] = 31420.942
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.412s)
+Result[43] = 31407.828
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.99s)
+Result[44] = 31417.384
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.962s)
+Result[45] = 31416.286
+
+$start_generation....
+Using 3 cores
+end_generation (time = 9.024s)
+Result[46] = 31416.868
+
+$start_generation....
+Using 3 cores
+end_generation (time = 10.21s)
+Result[47] = 31412.412
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.584s)
+Result[48] = 31411.468
+
+$start_generation....
+Using 3 cores
+end_generation (time = 8.767s)
+Result[49] = 31417.172
+
+
+[Result]
+Mean value = 31414.81872
+Dispersion = 13.91885692
+
+[Time]
+Mean value = 8.9818
+Dispersion = 0.54635
+
+>>>Running statistics test. This test consists of 50 iterations for 4 cores
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.83s)
+Result[0] = 31414.246
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.865s)
+Result[1] = 31418.54
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.713s)
+Result[2] = 31414.568
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.873s)
+Result[3] = 31415.64
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.035s)
+Result[4] = 31412.856
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.724s)
+Result[5] = 31416.346
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.764s)
+Result[6] = 31415.092
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.941s)
+Result[7] = 31406.208
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.166s)
+Result[8] = 31405.602
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.9s)
+Result[9] = 31407.398
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.3s)
+Result[10] = 31409.894
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.915s)
+Result[11] = 31408.416
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.357s)
+Result[12] = 31415.488
+
+$start_generation....
+Using 4 cores
+end_generation (time = 9.008s)
+Result[13] = 31406.494
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.577s)
+Result[14] = 31416.908
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.362s)
+Result[15] = 31414.524
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.252s)
+Result[16] = 31410.794
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.284s)
+Result[17] = 31419.982
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.44s)
+Result[18] = 31412.454
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.211s)
+Result[19] = 31411.478
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.437s)
+Result[20] = 31412.948
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.272s)
+Result[21] = 31416.678
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.925s)
+Result[22] = 31411.51
+
+$start_generation....
+Using 4 cores
+end_generation (time = 9.013s)
+Result[23] = 31413.444
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.789s)
+Result[24] = 31418.566
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.772s)
+Result[25] = 31420.366
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.746s)
+Result[26] = 31413.954
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.878s)
+Result[27] = 31418.68
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.069s)
+Result[28] = 31411.482
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.021s)
+Result[29] = 31411.98
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.963s)
+Result[30] = 31414.912
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.349s)
+Result[31] = 31414.582
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.47s)
+Result[32] = 31412.776
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.051s)
+Result[33] = 31411.554
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.345s)
+Result[34] = 31415.668
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.964s)
+Result[35] = 31414.416
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.806s)
+Result[36] = 31419.67
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.449s)
+Result[37] = 31411.236
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.623s)
+Result[38] = 31412.938
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.155s)
+Result[39] = 31413.862
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.417s)
+Result[40] = 31417.244
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.091s)
+Result[41] = 31416.952
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.105s)
+Result[42] = 31414.558
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.438s)
+Result[43] = 31409.07
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.117s)
+Result[44] = 31417.108
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.942s)
+Result[45] = 31408.24
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.823s)
+Result[46] = 31416.36
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.167s)
+Result[47] = 31412.93
+
+$start_generation....
+Using 4 cores
+end_generation (time = 8.004s)
+Result[48] = 31414.556
+
+$start_generation....
+Using 4 cores
+end_generation (time = 7.924s)
+Result[49] = 31415.76
+
+
+[Result]
+Mean value = 31413.73856
+Dispersion = 12.62161521
+
+[Time]
+Mean value = 8.1528
+Dispersion = 0.10264
+
+>>>Running statistics test. This test consists of 50 iterations for 5 cores
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.711s)
+Result[0] = 31413.154
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.709s)
+Result[1] = 31417.414
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.2s)
+Result[2] = 31411.982
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.118s)
+Result[3] = 31414.568
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.416s)
+Result[4] = 31405.54
+
+$start_generation....
+Using 5 cores
+end_generation (time = 8.128s)
+Result[5] = 31411.842
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.956s)
+Result[6] = 31416.808
+
+$start_generation....
+Using 5 cores
+end_generation (time = 6.935s)
+Result[7] = 31408.426
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.756s)
+Result[8] = 31404.336
+
+$start_generation....
+Using 5 cores
+end_generation (time = 8.066s)
+Result[9] = 31414.634
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.392s)
+Result[10] = 31414.978
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.701s)
+Result[11] = 31413.844
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.618s)
+Result[12] = 31406.294
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.387s)
+Result[13] = 31419.194
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.524s)
+Result[14] = 31415.284
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.699s)
+Result[15] = 31403.872
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.208s)
+Result[16] = 31415.36
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.37s)
+Result[17] = 31417.288
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.266s)
+Result[18] = 31407.946
+
+$start_generation....
+Using 5 cores
+end_generation (time = 8.243s)
+Result[19] = 31414.786
+
+$start_generation....
+Using 5 cores
+end_generation (time = 9.515s)
+Result[20] = 31416.072
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.776s)
+Result[21] = 31414.27
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.272s)
+Result[22] = 31411.836
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.443s)
+Result[23] = 31418.648
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.197s)
+Result[24] = 31415.87
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.258s)
+Result[25] = 31410.81
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.439s)
+Result[26] = 31412.66
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.187s)
+Result[27] = 31418.366
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.763s)
+Result[28] = 31405.398
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.065s)
+Result[29] = 31414.586
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.024s)
+Result[30] = 31410.328
+
+$start_generation....
+Using 5 cores
+end_generation (time = 6.945s)
+Result[31] = 31414.274
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.079s)
+Result[32] = 31418.164
+
+$start_generation....
+Using 5 cores
+end_generation (time = 6.917s)
+Result[33] = 31415.108
+
+$start_generation....
+Using 5 cores
+end_generation (time = 6.972s)
+Result[34] = 31410.254
+
+$start_generation....
+Using 5 cores
+end_generation (time = 6.915s)
+Result[35] = 31415.416
+
+$start_generation....
+Using 5 cores
+end_generation (time = 6.886s)
+Result[36] = 31416.84
+
+$start_generation....
+Using 5 cores
+end_generation (time = 6.968s)
+Result[37] = 31420.74
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.146s)
+Result[38] = 31415.896
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.483s)
+Result[39] = 31415.586
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.026s)
+Result[40] = 31409.174
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.615s)
+Result[41] = 31410.23
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.077s)
+Result[42] = 31409.64
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.231s)
+Result[43] = 31422.162
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.259s)
+Result[44] = 31415.664
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.211s)
+Result[45] = 31416.35
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.395s)
+Result[46] = 31414.954
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.362s)
+Result[47] = 31410.734
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.096s)
+Result[48] = 31413.274
+
+$start_generation....
+Using 5 cores
+end_generation (time = 7.475s)
+Result[49] = 31408.804
+
+
+[Result]
+Mean value = 31413.39316
+Dispersion = 17.33276977
+
+[Time]
+Mean value = 7.408
+Dispersion = 0.20057
+
+>>>Running statistics test. This test consists of 50 iterations for 6 cores
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.261s)
+Result[0] = 31410.626
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.167s)
+Result[1] = 31412.864
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.123s)
+Result[2] = 31411.662
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.236s)
+Result[3] = 31415.046
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.413s)
+Result[4] = 31423.126
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.308s)
+Result[5] = 31414.066
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.164s)
+Result[6] = 31411.24
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.052s)
+Result[7] = 31413.198
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.287s)
+Result[8] = 31418.636
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.552s)
+Result[9] = 31415.446
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.892s)
+Result[10] = 31414.432
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.23s)
+Result[11] = 31413.488
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.104s)
+Result[12] = 31414.844
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.056s)
+Result[13] = 31408.158
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.072s)
+Result[14] = 31420.002
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.106s)
+Result[15] = 31414.274
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.035s)
+Result[16] = 31416.918
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.497s)
+Result[17] = 31412.804
+
+$start_generation....
+Using 6 cores
+end_generation (time = 8.073s)
+Result[18] = 31414.642
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.425s)
+Result[19] = 31418.072
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.672s)
+Result[20] = 31418.214
+
+$start_generation....
+Using 6 cores
+end_generation (time = 8.345s)
+Result[21] = 31412.258
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.545s)
+Result[22] = 31413.204
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.315s)
+Result[23] = 31410.64
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.266s)
+Result[24] = 31412.048
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.224s)
+Result[25] = 31416.388
+
+$start_generation....
+Using 6 cores
+end_generation (time = 6.992s)
+Result[26] = 31411.778
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.342s)
+Result[27] = 31417.1
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.1s)
+Result[28] = 31409.76
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.143s)
+Result[29] = 31405.844
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.02s)
+Result[30] = 31411.676
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.082s)
+Result[31] = 31409.144
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.112s)
+Result[32] = 31403.862
+
+$start_generation....
+Using 6 cores
+end_generation (time = 6.96s)
+Result[33] = 31411.15
+
+$start_generation....
+Using 6 cores
+end_generation (time = 6.997s)
+Result[34] = 31412.266
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.164s)
+Result[35] = 31410.622
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.205s)
+Result[36] = 31411.034
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.071s)
+Result[37] = 31406.512
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.002s)
+Result[38] = 31412.964
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.031s)
+Result[39] = 31407.802
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.115s)
+Result[40] = 31415.078
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.032s)
+Result[41] = 31417.108
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.451s)
+Result[42] = 31420.374
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.291s)
+Result[43] = 31413.214
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.047s)
+Result[44] = 31409.946
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.07s)
+Result[45] = 31409.518
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.037s)
+Result[46] = 31411.282
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.041s)
+Result[47] = 31415.004
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.068s)
+Result[48] = 31411.502
+
+$start_generation....
+Using 6 cores
+end_generation (time = 7.093s)
+Result[49] = 31409.668
+
+
+[Result]
+Mean value = 31413.01008
+Dispersion = 14.11241007
+
+[Time]
+Mean value = 7.2377
+Dispersion = 0.076595
+

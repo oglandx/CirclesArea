@@ -1,9 +1,11 @@
 #include "solver.h"
 
-T solve(const std::vector< Circle* > *circles, int density, RandomFunction random, int max_cores)
+T solve(const std::vector< Circle* > *circles, int density, RandomFunction random, int max_cores, double *result_time)
 {
     Rect *rect = getFigureRect(circles);
-    std::pair<unsigned long, unsigned long> *result = generateAndCheckPoints(circles, rect, density, random, max_cores);
+    std::pair<unsigned long, unsigned long> *result =
+            generateAndCheckPoints(circles, rect, density, random, max_cores, result_time);
+
     if(NULL == result)
     {
         return (T)(-1);
@@ -18,20 +20,22 @@ T solve(const std::vector< Circle* > *circles, int density, RandomFunction rando
 void *generatePointsThread(void *params)
 {
     PointGeneratorStruct *data = (PointGeneratorStruct*)params;
-    *data->result = 0;
+    data->result = 0;
     for(unsigned long i = 0; i < data->count; ++i)
     {
         Point* point = data->random(data->rect, data->density);
         if(isPointInsideCircles(data->circles, point))
         {
-            ++(*data->result);
+            ++(data->result);
         }
+        delete point;
     }
     return NULL;
 }
 
 std::pair<unsigned long, unsigned long> *generateAndCheckPoints(
-        const std::vector< Circle* > *circles, const Rect *rect, int density, RandomFunction random, int max_cores)
+        const std::vector< Circle* > *circles, const Rect *rect, int density, RandomFunction random, int max_cores,
+        double *result_time)
 {
     if(max_cores < 1)
     {
@@ -45,41 +49,52 @@ std::pair<unsigned long, unsigned long> *generateAndCheckPoints(
             std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
     std::cout << "$start_generation...." << std::endl;
 
-    unsigned long results[max_cores];
+    PointGeneratorStruct *params[max_cores];
 
     pthread_t threads[max_cores - 1];
     for(int i = 0; i < max_cores - 1; ++i)
     {
+        params[i] = new PointGeneratorStruct(count/max_cores, density, rect, random, circles);
         pthread_create(
                 &threads[i],
                 NULL,
                 generatePointsThread,
-                new PointGeneratorStruct(count/max_cores, density, rect, random, circles, &results[i])
+                params[i]
         );
     }
 
     unsigned long real_count = count - count*(max_cores - 1)/max_cores;
-    generatePointsThread(new PointGeneratorStruct(
-            real_count + real_count % max_cores, density, rect, random, circles, &results[max_cores - 1]));
+    params[max_cores - 1] =
+            new PointGeneratorStruct(real_count + real_count % max_cores, density, rect, random, circles);
+    generatePointsThread(params[max_cores - 1]);
+
     for(int i = 0; i < max_cores - 1; ++i)
     {
         pthread_join(threads[i], NULL);
     }
 
     std::cout << "Using " << max_cores << " cores" << std::endl;
-    std::cout << "Gluing array chanks" << std::endl;
+
+    unsigned long result = params[0]->result;
 
     for(int i = 1; i < max_cores; ++i)
     {
-        std::cout << "[ " << i << " ] " << results[i] << std::endl;
-        results[0] += results[i];
+        result += params[i]->result;
+        delete params[i];
     }
 
     std::chrono::milliseconds end_time =
             std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
-    std::cout << "end_generation (time = " << end_time.count() - start_time.count() << ")" << std::endl;
+    double time = static_cast<double>(end_time.count() - start_time.count())/1000;
 
-    return new std::pair<unsigned long, unsigned long>(count, results[0]);
+    std::cout << "end_generation (time = " << time << "s)" << std::endl;
+
+    if(NULL != result_time)
+    {
+        *result_time = time;
+    }
+
+    return new std::pair<unsigned long, unsigned long>(count, result);
 }
 
 Rect *getFigureRect(const std::vector< Circle* > *circles)

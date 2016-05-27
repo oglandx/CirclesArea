@@ -16,9 +16,11 @@
 #include <chrono>
 
 
-T solve(const std::vector< Circle* > *circles, int density, RandomFunction random, int max_cores);
+T solve(const std::vector< Circle* > *circles, int density, RandomFunction random, int max_cores,
+        double *result_time = NULL);
 std::pair<unsigned long, unsigned long> *generateAndCheckPoints(
-        const std::vector< Circle* > *circles, const Rect *rect, int density, RandomFunction random, int max_cores);
+        const std::vector< Circle* > *circles, const Rect *rect, int density, RandomFunction random, int max_cores,
+        double *result_time = NULL);
 Rect *getFigureRect(const std::vector< Circle* > *circles);
 bool isPointInsideCircles(const std::vector< Circle* > *circles,
                           const Point *point);

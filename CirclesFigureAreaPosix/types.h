@@ -83,7 +83,7 @@ public:
 
     T area() const
     {
-        return std::fabs((tl->x - br->x)*(tl->y - br->y));
+        return static_cast<T>(std::fabs((tl->x - br->x)*(tl->y - br->y)));
     }
 };
 
@@ -95,21 +95,19 @@ struct PointGeneratorStruct{
     const Rect *rect;
     RandomFunction random;
     const std::vector< Circle* > *circles;
-    unsigned long *result;
+    unsigned long result;
 
     PointGeneratorStruct(unsigned long count,
                          int density,
                          const Rect *rect,
                          RandomFunction random,
-                         const std::vector< Circle* > *circles,
-                         unsigned long *result)
+                         const std::vector< Circle* > *circles)
     {
         this->count = count;
         this->density = density;
         this->rect = rect;
         this->random = random;
         this->circles = circles;
-        this->result = result;
     }
 };
 
