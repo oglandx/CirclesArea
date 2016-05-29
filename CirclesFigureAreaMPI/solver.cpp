@@ -17,19 +17,19 @@ T solve(const std::vector< Circle* > *circles, int density, RandomFunction rando
     return static_cast<T>(intersects)/static_cast<T>(count) * rect->area();
 }
 
-unsigned long generatePointsProcess(PointGeneratorStruct *data, const std::vector< Circle* > *circles, RandomFunction random)
+unsigned long generatePointsProcess(const std::vector< Circle* > *circles,
+                    unsigned long count, int density, const Rect rect, RandomFunction random)
 {
     unsigned long result = 0;
-    for(unsigned long i = 0; i < data->count; ++i)
+    for(unsigned long i = 0; i < count; ++i)
     {
-        Point* point = random(data->rect, data->density);
+        Point* point = random(rect, density);
         if(isPointInsideCircles(circles, point))
         {
             ++result;
         }
         delete point;
     }
-    delete data;
     return result;
 }
 
@@ -67,11 +67,11 @@ std::pair<unsigned long, unsigned long> *generateAndCheckPoints(
     if(mpi_rank == rank_main)
     {
         unsigned long real_count = count - count*(max_cores - 1)/max_cores;
-        result = generatePointsProcess(new PointGeneratorStruct(real_count, density, rect), circles, random);
+        result = generatePointsProcess(circles, real_count, density, rect, random);
     }
     else
     {
-        result = generatePointsProcess(new PointGeneratorStruct(count/max_cores, density, rect), circles, random);
+        result = generatePointsProcess(circles, count/max_cores, density, rect, random);
         sendResult(result, rank_main);
         return NULL;
     }

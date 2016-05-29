@@ -12,6 +12,8 @@ T solve(const std::vector< Circle* > *circles, int density, RandomFunction rando
     unsigned long count = result->first;
     unsigned long intersects = result->second;
 
+    delete result;
+
     return static_cast<T>(intersects)/static_cast<T>(count)* rect->area();
 }
 
@@ -32,6 +34,7 @@ std::pair<unsigned long, unsigned long> *generateAndCheckPoints(
         if (isPointInsideCircles(circles, point)) {
             ++result;
         }
+        delete point;
     }
 
     std::chrono::milliseconds end_time =

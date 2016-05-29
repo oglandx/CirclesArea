@@ -121,6 +121,7 @@ int main() {
     {
         delete circles->at(i);
     }
+
     delete circles;
 
     return status;
