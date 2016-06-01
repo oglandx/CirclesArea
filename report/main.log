@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.3.28)  29 MAY 2016 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.3.28)  1 JUN 2016 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,9 +589,9 @@ Overfull \hbox (12.79913pt too wide) in paragraph at lines 90--91
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 96.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 96.
 (../CirclesFigureAreaPosix/types.h) (../CirclesFigureAreaPosix/solver.cpp)
 (../CirclesFigureAreaPosix/solver.cpp
 Package babel Info: Redefining russian shorthand "|
@@ -606,9 +606,9 @@ Package babel Info: Redefining russian shorthand "~
 (../CirclesFigureAreaPosix/solver.cpp) (../CirclesFigureAreaPosix/solver.cpp)
 (../CirclesFigureAreaPosix/solver.cpp)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 132.
+(babel)             in language append on input line 131.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 132.
+(babel)             in language append on input line 131.
  (../CirclesFigureAreaMPI/solver.cpp
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 70.
@@ -621,72 +621,72 @@ Package babel Info: Redefining russian shorthand "~
 
 [6]) (../CirclesFigureAreaMPI/solver.cpp) (../CirclesFigureAreaMPI/solver.cpp)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 159.
+(babel)             in language append on input line 160.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 159.
+(babel)             in language append on input line 160.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 164.
+(babel)             in language append on input line 165.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 164.
+(babel)             in language append on input line 165.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 169.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
 
-(../CirclesFigureAreaPosix/results.log) (../CirclesFigureAreaPosix/results.log
+(../CirclesFigureAreaPosix/results.log)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 519.
+(babel)             in language append on input line 172.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 519.
+(babel)             in language append on input line 172.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 519.
+(babel)             in language append on input line 172.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 519.
-
-[7]) (../CirclesFigureAreaPosix/results.log)
+(babel)             in language append on input line 172.
+ [7]
+(../CirclesFigureAreaPosix/results.log) (../CirclesFigureAreaPosix/results.log)
 (../CirclesFigureAreaPosix/results.log) (../CirclesFigureAreaPosix/results.log)
 (../CirclesFigureAreaPosix/results.log)
-<pic/posix.png, id=392, 422.32782pt x 316.18124pt>
+<pic/posix.png, id=401, 422.32782pt x 316.18124pt>
 File: pic/posix.png Graphic file (type png)
  <use pic/posix.png>
-Package pdftex.def Info: pic/posix.png used on input line 185.
+Package pdftex.def Info: pic/posix.png used on input line 186.
 (pdftex.def)             Requested size: 295.62746pt x 221.32535pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 190.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 190.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 190.
+(babel)             in language append on input line 191.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 190.
+(babel)             in language append on input line 191.
  [8]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 193.
+(babel)             in language append on input line 194.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 193.
+(babel)             in language append on input line 194.
 
 (../CirclesFigureAreaMPI/runtest.sh) (../CirclesFigureAreaMPI/results.log)
 (../CirclesFigureAreaMPI/results.log) (../CirclesFigureAreaMPI/results.log)
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 210.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 210.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 210.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 209.
+(babel)             in language append on input line 210.
 
 [9 <./pic/posix.png (PNG copy)>] (../CirclesFigureAreaMPI/results.log)
 (../CirclesFigureAreaMPI/results.log) (../CirclesFigureAreaMPI/results.log)
-<pic/mpi.png, id=477, 422.32782pt x 316.18124pt>
+<pic/mpi.png, id=485, 422.32782pt x 316.18124pt>
 File: pic/mpi.png Graphic file (type png)
  <use pic/mpi.png>
-Package pdftex.def Info: pic/mpi.png used on input line 218.
+Package pdftex.def Info: pic/mpi.png used on input line 219.
 (pdftex.def)             Requested size: 295.62746pt x 221.32535pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 227.
+(babel)             in language append on input line 228.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 227.
+(babel)             in language append on input line 228.
 
-Overfull \hbox (0.76816pt too wide) in paragraph at lines 229--230
+Overfull \hbox (0.76816pt too wide) in paragraph at lines 230--231
 \T2A/cmr/m/n/10 ко по-то-ков. Глав-ным до-сто-и-но-ством та-ко-го под-хо-да яв-
 ля-ет-ся от-сут-ствие раз-де-ле-ния ад-рес-ных про-странств
  []
@@ -701,9 +701,9 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 232.
 [10 <./pic/mpi.png (PNG copy)>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 234.
+(babel)             in language append on input line 235.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 234.
+(babel)             in language append on input line 235.
  (../CirclesFigureArea/main.cpp
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 53.
@@ -831,13 +831,13 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 35.
  [23]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 105.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 105.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 105.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 105.
+(babel)             in language append on input line 106.
  [24]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 179.
@@ -850,66 +850,60 @@ Package babel Info: Redefining russian shorthand "~
  [25])
 (../CirclesFigureAreaMPI/types.h
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language append on input line 68.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 66.
+(babel)             in language append on input line 68.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 66.
+(babel)             in language append on input line 68.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 66.
+(babel)             in language append on input line 68.
  [26]) (../CirclesFigureAreaMPI/solver.h)
+(../CirclesFigureAreaMPI/solver.cpp
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 280.
+(babel)             in language append on input line 5.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 280.
+(babel)             in language append on input line 5.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 280.
+(babel)             in language append on input line 5.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 280.
-
-[27] (../CirclesFigureAreaMPI/solver.cpp
+(babel)             in language append on input line 5.
+ [27]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 73.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 73.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 73.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 73.
+(babel)             in language append on input line 75.
  [28])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 284.
+(babel)             in language append on input line 285.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 284.
+(babel)             in language append on input line 285.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 284.
+(babel)             in language append on input line 285.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 284.
+(babel)             in language append on input line 285.
  [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
  (./main.aux
 (./titlepage.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 299923C34B4D72D7D6C891A96950A5AB;3183.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 18EF52D271DC710DE423CE6E90EE4CB9;2313
-(rerunfilecheck)             After:  299923C34B4D72D7D6C891A96950A5AB;3183.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 15746 strings out of 493054
- 226196 string characters out of 6140586
- 684985 words of memory out of 5000000
+ 15743 strings out of 493054
+ 226145 string characters out of 6140586
+ 684988 words of memory out of 5000000
  17247 multiletter control sequences out of 15000+600000
  14389 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -925,10 +919,10 @@ blic/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
 frm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></u
 sr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-
 dist/fonts/type1/public/cm-super/sfti0800.pfb>
-Output written on main.pdf (30 pages, 454067 bytes).
+Output written on main.pdf (30 pages, 453877 bytes).
 PDF statistics:
- 2349 PDF objects out of 2487 (max. 8388607)
- 2280 compressed objects within 23 object streams
- 1782 named destinations out of 2073 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2354 PDF objects out of 2487 (max. 8388607)
+ 2285 compressed objects within 23 object streams
+ 1779 named destinations out of 2073 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
