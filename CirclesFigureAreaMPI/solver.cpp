@@ -18,7 +18,7 @@ T solve(const std::vector< Circle* > *circles, int density, RandomFunction rando
 }
 
 unsigned long generatePointsProcess(const std::vector< Circle* > *circles,
-                    unsigned long count, int density, const Rect rect, RandomFunction random)
+                    unsigned long count, int density, const Rect *rect, RandomFunction random)
 {
     unsigned long result = 0;
     for(unsigned long i = 0; i < count; ++i)
